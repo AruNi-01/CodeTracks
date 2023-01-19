@@ -45,3 +45,4 @@ jobs:
           # This is the branch where the docs are deployed to
           branch: gh-pages
           folder: src/.vuepress/dist
+          cname: aruni.me  # 你网站的域名
