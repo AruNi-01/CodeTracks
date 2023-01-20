@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.60
+  '@vuepress/plugin-nprogress': 2.0.0-beta.60
   '@vuepress/plugin-search': 2.0.0-beta.60
   vue: ^3.2.45
   vuepress: 2.0.0-beta.60
@@ -9,10 +10,11 @@ specifiers:
 
 devDependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.60
+  '@vuepress/plugin-nprogress': registry.npmmirror.com/@vuepress/plugin-nprogress/2.0.0-beta.60
   '@vuepress/plugin-search': registry.npmmirror.com/@vuepress/plugin-search/2.0.0-beta.60
   vue: registry.npmmirror.com/vue/3.2.45
   vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.60_dlgznq46b2nyvtu5wqobknojfm
-  vuepress-theme-hope: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.163_e7jwb2ulu5orbkux7obq5onfau
+  vuepress-theme-hope: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.163_meczp27ek67f5vpi7nmnewk2la
 
 packages:
 
@@ -6891,7 +6893,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.163_e7jwb2ulu5orbkux7obq5onfau:
+  registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.163_meczp27ek67f5vpi7nmnewk2la:
     resolution: {integrity: sha512-ZkNgjLF/XCKeiBbVuWfNSm38OQYCWRAyYsRgYoTbcDtyqJ1Bw8yZ2JYyrnAdfvlGPU5jolhrMDVw8jH/RjIULQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-theme-hope/-/vuepress-theme-hope-2.0.0-beta.163.tgz}
     id: registry.npmmirror.com/vuepress-theme-hope/2.0.0-beta.163
     name: vuepress-theme-hope
@@ -6899,6 +6901,7 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
     peerDependencies:
       '@vuepress/client': 2.0.0-beta.60
+      '@vuepress/plugin-nprogress': 2.0.0-beta.60
       sass-loader: ^13.2.0
       vuepress: 2.0.0-beta.60
       vuepress-vite: 2.0.0-beta.60

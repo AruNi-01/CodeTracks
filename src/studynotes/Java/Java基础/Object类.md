@@ -210,16 +210,14 @@ class User {
 
 每个类的用途不一样，因此下面分为 **该类是否被散列表使用** 来讨论。
 
-::: info 类不会被散列表使用
-🥱
+::: tip 类不会被散列表使用
 :::
 
 当我们不在 HashSet，HashTable，HashMap 等等这些 **本质是散列表** 的数据结构中用到这个类时，`equals()` 用来比较该类的两个对象是否相等，而 **hashCode() 则根本使用不到**。
 
 因为不是散列表的结构中，不会调用什么 `hashCode()` 方法，所以 **重不重写都没关系**。
 
-::: info 类会被散列表使用
-🥱
+::: tip 类会被散列表使用
 :::
 
 当该类会被散列表使用时，该类的 `hashCode()` 和 `equals` 是有关系的：
@@ -307,7 +305,4 @@ class User {
 如果你翻开过 String 类的源码，会发现 String 类不仅重写了 `equals()`，还重写了 `hashCode()` 方法，因为 String 类是我们编程时使用得最多的类，也常常将它用作 HashMap 的 key，而 HashMap 的 key 是不可以重复的。正因为 String 类已经帮我们重写好了相关方法，所以我们使用 String 类时才如此方便安全。
 
 ## 4. 参考文章
-
-::: link {https://javaguide.cn/favicon.ico} [Java Guide](https://javaguide.cn/)
-
-:::
+- [Java Guide](https://javaguide.cn/)

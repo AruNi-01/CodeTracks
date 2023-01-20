@@ -5,11 +5,9 @@ title: Java
 icon: java
 # 分类
 category:
-  - 目录
   - 导航
 # 标签
 tag:
-  - 目录
   - 导航
 
 sticky: false
@@ -20,3 +18,14 @@ article: false
 # 是否将该文章添加至时间线中
 timeline: false
 ---
+
+::: tip 相关内容
+Java 基础、集合、并发编程等
+:::
+
+## Java 基础
+- [Object 类](./Java基础/Object类.html)
+- [String 类](./Java基础/String类.html)
+
+## 并发编程
+- [volatile 详解](./Concurrency/volatile详解.html)

@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+
 //中文导航栏
 import { zhNavbar } from "./navbar";
 //中文侧边栏
@@ -12,7 +13,7 @@ export default hopeTheme({
   // 文章显示的默认作者
   author: {
     name: "AruNi_Lu",
-    url: "https://github.com/AruNi-01/my-docs/",
+    url: "https://github.com/AruNi-01/",
   },
 
   // 使用官方提供的图标库-也可以构建自己的图标库
@@ -66,7 +67,7 @@ export default hopeTheme({
   lastUpdated: true,
 
   // 显示页面的贡献者
-  contributors: true,
+  contributors: false,
 
   // 编辑此页开关
   editLink: false,
@@ -113,6 +114,7 @@ export default hopeTheme({
       // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
       "PDF",
     ],
+
     // 代码复制功能-vuepress-plugin-copy-code2
     copyCode: {
       // 在移动端也可以实现复制代码
@@ -122,6 +124,7 @@ export default hopeTheme({
       // 纯净模式
       pure: false,
     },
+
     // MarkDown文件增强
     mdEnhance: {
       align: true,

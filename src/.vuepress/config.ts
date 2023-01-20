@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
-
 import theme from "./theme.js";
 import {searchPlugin} from "@vuepress/plugin-search";
+import { nprogressPlugin } from '@vuepress/plugin-nprogress';
 
 //自定义用户配置
 export default defineUserConfig({
@@ -35,6 +35,9 @@ export default defineUserConfig({
       // 排除首页中的内容
       isSearchable: (page) => page.path !== "/",
     }),
+
+    // 加载进度条
+    nprogressPlugin(),
   ],
 
   shouldPrefetch: false,

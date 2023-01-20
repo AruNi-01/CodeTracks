@@ -6,18 +6,37 @@ export const zhSidebar = sidebar({
       text: "Java",
       icon: "java",
       collapsible: true,
-      prefix: "/studynotes/java/",
+      prefix: "/studynotes/Java/",
       children: [
         {
           text: "Java 基础",
           icon: "java",
           collapsible: true,
-          prefix: "/studynotes/java/javase/",
+          prefix: "/studynotes/Java/Java基础/",
           children: [
             {
               text: "Object 类",
               icon: "write",
               link: "Object类.md",
+            },
+            {
+              text: "String 类",
+              icon: "write",
+              link: "String类.md",
+            }
+          ]
+        },
+
+        {
+          text: "并发编程",
+          icon: "java",
+          collapsible: true,
+          prefix: "/studynotes/Java/Concurrency/",
+          children: [
+            {
+              text: "volatile 详解",
+              icon: "write",
+              link: "volatile详解.md",
             }
           ]
         },
