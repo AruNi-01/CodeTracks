@@ -20,7 +20,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   // 网站图标
-  logo: "/favicon.png",
+  logo: "/fav.ico",
 
   // 导航栏上的个人仓库地址
   repo: "https://github.com/AruNi-01/",
