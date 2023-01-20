@@ -20,12 +20,12 @@ timeline: false
 ---
 
 ::: tip 相关内容
-Java 基础、集合、并发编程等
+Java 基础、集合、并发编程等！
 :::
 
 ## Java 基础
-- [Object 类](./Java基础/Object类.html)
-- [String 类](./Java基础/String类.html)
+- [Object 类](java基础/Object类.html)
+- [String 类](java基础/String类.html)
 
 ## 并发编程
-- [volatile 详解](./Concurrency/volatile详解.html)
+- [volatile 详解](concurrency/volatile详解.html)

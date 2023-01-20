@@ -19,6 +19,10 @@ article: true
 timeline: true
 ---
 
+::: details 本文内容
+[[toc]]
+:::
+
 ## 1. String 基础
 
 String 类表示字符串。Java 程序中的所有字符串字面值，例如 "abc"，都被实现为该类的实例，因此字符串属于对象。

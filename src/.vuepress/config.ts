@@ -19,6 +19,7 @@ export default defineUserConfig({
   },
   // 主题设置
   theme,
+
   plugins: [
     // 搜索插件
     searchPlugin({

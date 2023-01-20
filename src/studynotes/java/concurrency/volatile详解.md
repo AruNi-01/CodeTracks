@@ -19,6 +19,10 @@ article: true
 timeline: true
 ---
 
+::: details 本文内容
+[[toc]]
+:::
+
 ## 1. 认识 volatile
 
 volatile 关键字是一个轻量级的同步机制，一般作用于 **变量**，在并发场景下保证了内存的 **可见性**，以及 **避免了指令的重排序**。

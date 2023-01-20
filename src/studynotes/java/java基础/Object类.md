@@ -19,6 +19,10 @@ article: true
 timeline: true
 ---
 
+::: details 本文内容
+[[toc]]
+:::
+
 ## 1. Object 介绍
 
 **Object 类是所有类的父类**，任何一个类都 **间接或直接继承** 至 Object 类，所有对象（包括数组）都实现了此类的方法。
