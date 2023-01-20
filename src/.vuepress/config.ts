@@ -5,7 +5,7 @@ import { nprogressPlugin } from '@vuepress/plugin-nprogress';
 
 //自定义用户配置
 export default defineUserConfig({
-  base: "/my-docs/",
+  base: "/docs/",
 
   // 多语言设置
   locales: {
