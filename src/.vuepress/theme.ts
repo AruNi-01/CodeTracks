@@ -20,7 +20,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   // 网站图标
-  logo: "/favicon.ico",
+  logo: "/favicon.png",
 
   // 导航栏上的个人仓库地址
   repo: "https://github.com/AruNi-01/",
@@ -84,6 +84,8 @@ export default hopeTheme({
   // 多语言设置
   locales: {
     "/": {
+      logo: "/favicon.ico",
+
       // 导航栏
       navbar: zhNavbar,
 

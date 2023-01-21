@@ -7,13 +7,12 @@ import { nprogressPlugin } from '@vuepress/plugin-nprogress';
 export default defineUserConfig({
   base: "/docs/",
 
-  // 多语言设置
   locales: {
     "/": {
       lang: "zh-CN",
       title: "AruNi's docs",
       description: "学习文档",
-      // 设置favicon
+      // 设置 favicon
       head: [["link", { rel: "icon", href: "/favicon.png" }]],
     },
   },
