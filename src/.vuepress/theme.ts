@@ -8,7 +8,7 @@ import { zhSidebar } from "./sidebar";
 // 主题设置
 export default hopeTheme({
   // 当前网站部署到的域名
-  hostname: "https://aruni.me/docs",
+  hostname: "https://aruni.me/",
 
   // 文章显示的默认作者
   author: {
@@ -20,7 +20,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   // 网站图标
-  logo: "/fav.ico",
+  logo: "/favicon.ico",
 
   // 导航栏上的个人仓库地址
   repo: "https://github.com/AruNi-01/",
