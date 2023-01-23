@@ -1,18 +1,17 @@
 ---
-title: Java
-date: 2023-1-20
-
-icon: java
+title: 数据库
+date: 2023-1-23
+icon: storage
 index: false
 dir:
-  order: 1
+  order: 2
 
 # 分类
 category:
-  - 导航
+ - 导航
 # 标签
 tag:
-  - 导航
+ - 导航
 
 sticky: false
 # 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。
@@ -24,14 +23,12 @@ timeline: false
 ---
 
 ::: tip 相关内容
-Java 基础、集合、并发编程等！
+数据库相关知识，MySQL、Redis 等！
 :::
 
-## Java 基础
+## MySQL
 - [Object 类](javase/Object类.html)
 - [String 类](javase/String类.html)
 
-## 并发编程
-- [ThreadLocal 详解](concurrency/ThreadLocal详解.md)
-- [Java 内存模型](concurrency/Java内存模型.md)
+## Redis
 - [volatile 详解](concurrency/volatile详解.html)

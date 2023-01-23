@@ -3,6 +3,10 @@
 title: 学习笔记
 # 当前页面图标
 icon: code
+
+# 是否将该页面生成在侧边栏
+index: false
+
 # 分类
 category:
   - 导航

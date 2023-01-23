@@ -3,8 +3,8 @@ home: true
 icon: home
 title: 个人主页
 heroImage: /favicon.png
-heroText: AruNi 's docs
-tagline: 🧑‍💻 编程的旅途很漫长，总得留下点什么 ...
+heroText: AruNi's docs
+tagline: 🧑‍💻 编程的旅途很漫长，总得留下点什么...
 actions:
   - text: 开始阅读 💡
     link: /studynotes/
@@ -15,7 +15,7 @@ features:
   - title: Java
     icon: java
     details: Java 基础、集合、并发编程等
-    link: /studynotes/Java/
+    link: /studynotes/java/
   - title: 数据库
     icon: storage
     details: 数据库知识、MySQL、Redis 等

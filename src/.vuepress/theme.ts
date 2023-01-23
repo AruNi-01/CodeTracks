@@ -8,7 +8,7 @@ import { zhSidebar } from "./sidebar";
 // 主题设置
 export default hopeTheme({
   // 当前网站部署到的域名
-  hostname: "https://aruni.me/docs",
+  hostname: "https://aruni.me/",
 
   // 文章显示的默认作者
   author: {
@@ -37,6 +37,8 @@ export default hopeTheme({
     center: ["Links"],
     right: ["Language", "Repo", "Outlook", "Search"],
   },
+
+  hotReload: true,
 
   // 页面显示信息
   // pageInfo: ["Category", "Tag", "ReadingTime"],
@@ -84,8 +86,6 @@ export default hopeTheme({
   // 多语言设置
   locales: {
     "/": {
-      logo: "/favicon.ico",
-
       // 导航栏
       navbar: zhNavbar,
 
