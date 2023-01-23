@@ -3,13 +3,14 @@ home: true
 icon: home
 title: 个人主页
 heroImage: /favicon.png
-heroText: AruNi's docs
+heroText: Docs By AruNi
 tagline: 🧑‍💻 编程的旅途很漫长，总得留下点什么...
 actions:
   - text: 开始阅读 💡
     link: /studynotes/
     type: primary
-
+  - text: 时间线 ⏱️
+    link: /updatelog/
 
 features:
   - title: Java
