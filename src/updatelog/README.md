@@ -2,7 +2,7 @@
 # 当前页面内容标题
 title: 网站更新日志
 # 当前页面图标
-icon: line
+icon: rizhi
 
 # 是否将该页面生成在侧边栏
 index: false

@@ -25,7 +25,7 @@ export default defineUserConfig({
       //多语言支持
       locales: {
         "/": {
-          placeholder: "搜索文章",
+          placeholder: "搜索 Ctrl+k",
         },
       },
       // 热键支持

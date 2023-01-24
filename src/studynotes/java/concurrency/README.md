@@ -1,6 +1,6 @@
 ---
 title: 并发编程
-icon: java
+icon: coffee
 dir:
   order: 2
 index: false

@@ -2,7 +2,7 @@
 # 当前页面内容标题
 title: 学习笔记
 # 当前页面图标
-icon: code
+icon: Notes
 
 # 是否将该页面生成在侧边栏
 index: false

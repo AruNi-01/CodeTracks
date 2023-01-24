@@ -1,7 +1,7 @@
 ---
 title: 数据库
 date: 2023-1-23
-icon: storage
+icon: database
 index: false
 dir:
   order: 2

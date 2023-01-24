@@ -1,7 +1,7 @@
 ---
 title: LeetCode 算法
 date: 2023-1-23
-icon: structure
+icon: a-structure4-fill
 index: false
 dir:
   order: 4

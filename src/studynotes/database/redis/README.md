@@ -1,6 +1,6 @@
 ---
 title: Redis
-icon: stack
+icon: redis
 dir:
   order: 2
 index: false

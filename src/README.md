@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: home2
 title: 个人主页
 heroImage: /favicon.png
 heroText: Docs By AruNi
@@ -18,7 +18,7 @@ features:
     details: Java 基础、集合、并发编程等
     link: /studynotes/java/
   - title: 数据库
-    icon: storage
+    icon: database
     details: 数据库知识、MySQL、Redis 等
     link: /studynotes/database/
   - title: 计算机基础
@@ -26,11 +26,11 @@ features:
     details: 操作系统、网络相关
     link: /studynotes/cs/
   - title: 算法题解
-    icon: structure
+    icon: a-structure4-fill
     details: LeetCode 算法题解
     link: /studynotes/algo/
   - title: 中间件
-    icon: software
+    icon: box
     details: 后端常用中间件
     link: /studynotes/middleware/
 

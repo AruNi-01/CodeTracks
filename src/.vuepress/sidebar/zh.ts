@@ -4,7 +4,8 @@ import {orderSorter} from "vuepress-theme-hope/lib/node/prepare";
 export const zhSidebar = sidebar({
 
   "/studynotes/": "structure",
-  "/floatinglife/": "structure",
+  "/randomnotes/": "structure",
+  
   // ========================= 学习笔记 =========================
   // "/studynotes/": [
   //   // // ---------------- java ----------------
@@ -177,30 +178,30 @@ export const zhSidebar = sidebar({
   //
   //
   // // ========================浮生杂记的侧边栏========================
-  // "/floatinglife/": [
+  // "/randomnotes/": [
   //   {
   //     text: "小镇美食家",
   //     icon: "linter",
   //     collapsible: true,
-  //     link: "/floatinglife/cooker/",
+  //     link: "/randomnotes/cooker/",
   //   },
   //   {
   //     text: "小镇技术宅",
   //     icon: "computer",
   //     collapsible: true,
-  //     link: "/floatinglife/iter/",
+  //     link: "/randomnotes/iter/",
   //   },
   //   {
   //     text: "小镇运动狂",
   //     icon: "strong",
   //     collapsible: true,
-  //     link: "/floatinglife/sporter/",
+  //     link: "/randomnotes/sporter/",
   //   },
   //   {
   //     text: "小镇思考者",
   //     icon: "style",
   //     collapsible: true,
-  //     link: "/floatinglife/thinker/",
+  //     link: "/randomnotes/thinker/",
   //   },
   // ],
 

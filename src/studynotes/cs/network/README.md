@@ -1,6 +1,6 @@
 ---
 title: 网络
-icon: network
+icon: networks
 dir:
   order: 2
 index: false
