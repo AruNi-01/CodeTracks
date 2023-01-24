@@ -2,6 +2,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import {searchPlugin} from "@vuepress/plugin-search";
 import { nprogressPlugin } from '@vuepress/plugin-nprogress';
+import { commentPlugin } from "vuepress-plugin-comment2";
+
 
 //自定义用户配置
 export default defineUserConfig({
@@ -34,6 +36,17 @@ export default defineUserConfig({
       maxSuggestions: 7,
       // 排除首页中的内容
       isSearchable: (page) => page.path !== "/",
+    }),
+
+    // 评论插件
+    commentPlugin({
+      // Giscus 评论
+      provider: "Giscus",
+      repo: "AruNi-01/docs",
+      repoId: "R_kgDOIzaunw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOIzaun84CTx1G",
+      lazyLoading: true,
     }),
 
     // 加载进度条

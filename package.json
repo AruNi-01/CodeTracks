@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
+  "description": "AruNi's docs",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
     "@vuepress/plugin-search": "2.0.0-beta.60",
     "vue": "^3.2.45",
     "vuepress": "2.0.0-beta.60",
+    "vuepress-plugin-comment2": "2.0.0-beta.166",
     "vuepress-theme-hope": "2.0.0-beta.163"
   }
 }
