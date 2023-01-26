@@ -1,0 +1,1 @@
+import{_ as t,W as _,X as a,Y as e,a0 as c}from"./framework-548bf750.js";const r={},s=e("h2",{id:"_1-虚拟内存介绍",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_1-虚拟内存介绍","aria-hidden":"true"},"#"),c(" 1. 虚拟内存介绍")],-1),o=[s];function n(d,i){return _(),a("div",null,o)}const l=t(r,[["render",n],["__file","虚拟内存.html.vue"]]);export{l as default};

@@ -1,1 +1,0 @@
-import{_ as a,W as t,X as _,$ as e,a1 as r}from"./framework-1180c510.js";const o={},c=e("h2",{id:"_1-aof-和-rdb",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_1-aof-和-rdb","aria-hidden":"true"},"#"),r(" 1. AOF 和 RDB")],-1),s=[c];function n(d,i){return t(),_("div",null,s)}const h=a(o,[["render",n],["__file","持久化.html.vue"]]);export{h as default};
