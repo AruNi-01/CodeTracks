@@ -17,7 +17,7 @@ export default hopeTheme({
   },
 
   // 使用官方提供的图标库-也可以构建自己的图标库
-  iconAssets: "//at.alicdn.com/t/c/font_3869136_0p2wmfdseyl.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3869136_o5td0pekmmj.css",
   iconPrefix: "icon-",
 
   // 网站图标
@@ -123,7 +123,7 @@ export default hopeTheme({
       // 在移动端也可以实现复制代码
       showInMobile: true,
       // 代码复制成功提示消息的时间-ms
-      duration: 1200,
+      duration: 1500,
       // 纯净模式
       pure: false,
     },
