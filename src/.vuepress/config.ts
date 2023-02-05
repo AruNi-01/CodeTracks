@@ -15,7 +15,9 @@ export default defineUserConfig({
       title: "AruNi's docs",
       description: "学习文档",
       // 设置 favicon
-      head: [["link", { rel: "icon", href: "/favicon.png" }]],
+      head: [
+        ["link", { rel: "icon", href: "/logo.svg" }],
+      ],
     },
   },
   // 主题设置

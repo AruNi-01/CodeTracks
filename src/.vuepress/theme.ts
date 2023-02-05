@@ -21,10 +21,10 @@ export default hopeTheme({
   iconPrefix: "icon-",
 
   // 网站图标
-  logo: "/favicon.png",
+  logo: "/logo.png",
 
   // 导航栏上的个人仓库地址
-  repo: "https://github.com/AruNi-01/",
+  repo: "https://github.com/AruNi-01/docs",
 
   // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
@@ -51,16 +51,16 @@ export default hopeTheme({
   breadcrumbIcon: true,
 
   // 用户可以自定义的多主题色
-  themeColor: {
-    blue: "#2196f3",
-    pink: "#EF699F",
-    purple: "#684CCE",
-    orange: "#FF8C3D",
-  },
+  // themeColor: {
+  //   blue: "#2196f3",
+  //   pink: "#EF699F",
+  //   purple: "#684CCE",
+  //   orange: "#FF8C3D",
+  // },
   // 暗黑模式切换-在深色模式和浅色模式中切换
   darkmode: "toggle",
   // 全屏按钮
-  fullscreen: true,
+  fullscreen: false,
   // 返回顶部按钮-下滑300px后显示
   backToTop: true,
   // 纯净模式-禁用
@@ -106,6 +106,8 @@ export default hopeTheme({
   },
 
   plugins: {
+    blog: true,
+
     // 在MD文件中启用的组件
     components: [
       // 为站点提供了在MD文档中自定义颜色的徽章
