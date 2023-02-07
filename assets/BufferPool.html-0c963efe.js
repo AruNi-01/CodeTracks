@@ -1,1 +1,0 @@
-import{_ as o,W as r,X as t,Z as e,$ as a}from"./framework-a3d2fe6d.js";const c={},f=e("h2",{id:"_1-bufferpool-是什么",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_1-bufferpool-是什么","aria-hidden":"true"},"#"),a(" 1. BufferPool 是什么？")],-1),s=[f];function _(n,l){return r(),t("div",null,s)}const i=o(c,[["render",_],["__file","BufferPool.html.vue"]]);export{i as default};
