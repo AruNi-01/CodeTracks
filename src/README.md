@@ -33,10 +33,10 @@ features:
     icon: box
     details: 后端常用中间件
     link: /studynotes/middleware/
-  - title: 随笔一记
-    icon: note
+  - title: 人生杂谈
+    icon: rensheng
     details: 一些非技术内容
-    link: /randomnotes/
+    link: /lifetalk/
   - title: 更新日志
     icon: rizhi
     details: 网站文章的更新详情

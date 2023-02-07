@@ -1,8 +1,8 @@
 ---
 # 当前页面内容标题
-title: 随笔一记
+title: 人生杂谈
 # 当前页面图标
-icon: note
+icon: rensheng
 
 # 是否将该页面生成在侧边栏
 index: false
@@ -26,5 +26,8 @@ timeline: false
 这里是一片与硬核技术无关的地方！
 :::
 
-## [Hello VuePress](Hello%20VuePress.md)
+## 💡 感悟
+- 
 
+## 🎲 杂谈
+- [Hello VuePress](randomtalk/Hello%20VuePress.md)

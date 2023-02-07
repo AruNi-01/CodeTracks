@@ -4,7 +4,32 @@ import {orderSorter} from "vuepress-theme-hope/lib/node/prepare";
 export const zhSidebar = sidebar({
 
   "/studynotes/": "structure",
-  "/randomnotes/": "structure",
+
+  // "/lifetalk/": "structure",
+  "/lifetalk/": [
+      {
+        text: "感悟",
+        icon: "think",
+        collapsible: false,
+        prefix: "/lifetalk/thinking/",
+        children: [
+          
+          
+        ]
+      },
+
+      {
+        text: "杂谈",
+        icon: "talk",
+        collapsible: false,
+        prefix: "/lifetalk/randomtalk/",
+        children: [
+          "Hello VuePress",
+          
+        ]
+      },
+
+    ],
   
   // ========================= 学习笔记 =========================
   // "/studynotes/": [
@@ -178,30 +203,30 @@ export const zhSidebar = sidebar({
   //
   //
   // // ========================浮生杂记的侧边栏========================
-  // "/randomnotes/": [
+  // "/lifetalk/": [
   //   {
   //     text: "小镇美食家",
   //     icon: "linter",
   //     collapsible: true,
-  //     link: "/randomnotes/cooker/",
+  //     link: "/lifetalk/cooker/",
   //   },
   //   {
   //     text: "小镇技术宅",
   //     icon: "computer",
   //     collapsible: true,
-  //     link: "/randomnotes/iter/",
+  //     link: "/lifetalk/iter/",
   //   },
   //   {
   //     text: "小镇运动狂",
   //     icon: "strong",
   //     collapsible: true,
-  //     link: "/randomnotes/sporter/",
+  //     link: "/lifetalk/sporter/",
   //   },
   //   {
   //     text: "小镇思考者",
   //     icon: "style",
   //     collapsible: true,
-  //     link: "/randomnotes/thinker/",
+  //     link: "/lifetalk/thinker/",
   //   },
   // ],
 
