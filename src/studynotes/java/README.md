@@ -31,6 +31,9 @@ Java 基础、集合、并发编程等！
 - [Object 类](javase/Object类.html)
 - [String 类](javase/String类.html)
 
+## 集合
+- [集合入门](collection/集合入门.md)
+
 ## 并发编程
 - [ThreadLocal 详解](concurrency/ThreadLocal详解.md)
 - [Java 内存模型](concurrency/Java内存模型.md)

@@ -2,6 +2,7 @@
 # 当前页面内容标题
 title: String 类
 date: 2022-12-18
+order: 2
 # 当前页面图标
 icon: write
 # 分类

@@ -4,7 +4,7 @@ icon: home2
 title: 个人主页
 heroImage: /favicon.png
 heroText: Docs By AruNi
-tagline: 🧑‍💻 编程的旅途很漫长，总得留下点什么...
+tagline: 🌱 人生最后悔的事情就是，我本可以
 actions:
   - text: 开始阅读 🎉
     link: /studynotes/
@@ -33,9 +33,17 @@ features:
     icon: box
     details: 后端常用中间件
     link: /studynotes/middleware/
+  - title: 随笔一记
+    icon: note
+    details: 一些非技术内容
+    link: /randomnotes/
+  - title: 更新日志
+    icon: rizhi
+    details: 网站文章的更新详情
+    link: /updatelog/
 
 copyright: false
-footer: <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | Copyright © 2023-present <a href="https://github.com/AruNi-01/" target="_blank">AruNi_Lu</a>
+footer: Copyright © 2023 AruNi_Lu
 ---
 
 ## 📣 About

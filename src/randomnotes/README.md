@@ -3,6 +3,10 @@
 title: 随笔一记
 # 当前页面图标
 icon: note
+
+# 是否将该页面生成在侧边栏
+index: false
+
 # 分类
 category:
   - 导航
@@ -18,11 +22,9 @@ article: false
 timeline: false
 ---
 
-[小镇美食家](./cooker/README.md)
+::: tip 相关内容
+这里是一片与硬核技术无关的地方！
+:::
 
-[小镇技术宅](./iter/README.md)
-
-[小镇运动狂](./sporter/README.md)
-
-[小镇思考者](./thinker/README.md)
+## [Hello VuePress](Hello%20VuePress.md)
 

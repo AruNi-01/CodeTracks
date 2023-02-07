@@ -1,8 +1,8 @@
 ---
-title: 并发编程
-icon: coffee
+title: 集合
+icon: collection
 dir:
-  order: 3
+  order: 2
 index: false
 article: false
 timeline: false

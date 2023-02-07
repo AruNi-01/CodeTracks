@@ -2,14 +2,15 @@
 # 当前页面内容标题
 title: volatile 详解
 date: 2022-12-27
+order: 2
 # 当前页面图标
 icon: write
 # 分类
 category:
-  - Java
+ - Java
 # 标签
 tag:
-  - 并发编程
+ - 并发编程
 
 sticky: false
 # 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。

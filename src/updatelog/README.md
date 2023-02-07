@@ -16,16 +16,21 @@ article: false
 timeline: false
 ---
 
+## 2023 年 2 月
+::: tip 新增文章
+**《Java》**：
+- 集合：[集合入门](collection/集合入门.md)
+:::
 
 ## 2022 年 12 月
 ::: tip 新增文章
-**[Java](../../studynotes/java/)**：
+**《Java》**：
 - Java 基础：[Object 类](/studynotes/java/javase/Object类.md)
 - Java 基础：[String 类](/studynotes/java/javase/String类.md)
 - 并发编程：[ThreadLocal 详解](/studynotes/java/concurrency/ThreadLocal详解.md)
 - 并发编程：[Java 内存模型](/studynotes/java/concurrency/Java内存模型.md)
 - 并发编程：[volatile 详解](/studynotes/java/concurrency/volatile详解.md)
 
-**[计算机基础](../../studynotes/cs/)**：
+**《计算机基础》**：
 - 网络：[什么是 HTTP](/studynotes/cs/network/什么是HTTP.md)
 :::
