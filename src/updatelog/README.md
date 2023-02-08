@@ -19,7 +19,8 @@ timeline: false
 ## 2023 年 2 月
 ::: tip 新增文章
 **《Java》**：
-- 集合：[集合入门](collection/集合入门.md)
+- 集合：[集合入门](/studynotes/java/collection/集合入门.md)
+- 集合：[ArrayList 源码分析](/studynotes/java/collection/ArrayList源码分析.md)
 :::
 
 ## 2022 年 12 月

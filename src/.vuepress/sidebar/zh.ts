@@ -24,7 +24,7 @@ export const zhSidebar = sidebar({
         collapsible: false,
         prefix: "/lifetalk/randomtalk/",
         children: [
-          "Hello VuePress",
+          "HelloVuePress",
           
         ]
       },

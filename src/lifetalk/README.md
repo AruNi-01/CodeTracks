@@ -30,4 +30,4 @@ timeline: false
 - 
 
 ## 🎲 杂谈
-- [Hello VuePress](randomtalk/Hello%20VuePress.md)
+- [Hello VuePress](randomtalk/HelloVuePress.md)
