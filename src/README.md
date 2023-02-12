@@ -35,7 +35,7 @@ features:
     link: /studynotes/middleware/
   - title: 人生杂谈
     icon: rensheng
-    details: 一些非技术内容
+    details: 非技术内容，感悟、面经等
     link: /lifetalk/
   - title: 更新日志
     icon: rizhi

@@ -21,6 +21,7 @@ timeline: false
 **《Java》**：
 - 集合：[集合入门](/studynotes/java/collection/集合入门.md)
 - 集合：[ArrayList 源码分析](/studynotes/java/collection/ArrayList源码分析.md)
+- 集合：[HashMap 源码分析：数据结构](/studynotes/java/collection/HashMap源码分析：数据结构.md)
 :::
 
 ## 2022 年 12 月

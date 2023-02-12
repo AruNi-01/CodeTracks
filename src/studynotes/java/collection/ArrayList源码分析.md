@@ -188,7 +188,7 @@ private void rangeCheckForAdd(int index) {
 }
 ```
 
-::: info 面试题
+::: info 考一考你
 
 下面的代码会出现什么问题：
 

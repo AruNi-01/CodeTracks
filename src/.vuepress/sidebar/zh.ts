@@ -8,9 +8,37 @@ export const zhSidebar = sidebar({
   // "/lifetalk/": "structure",
   "/lifetalk/": [
       {
+        text: "面经",
+        icon: "interview",
+        collapsible: true,
+        prefix: "/lifetalk/interview/",
+        children: [
+          {
+            text: "实习",
+            icon: "internship",
+            collapsible: false,
+            prefix: "/lifetalk/interview/internship/",
+            children: [
+              "日常实习-壹沓科技",
+
+            ]
+          },
+          {
+            text: "春秋招",
+            icon: "recruit",
+            collapsible: false,
+            prefix: "/lifetalk/interview/recruit/",
+            children: [
+              
+            ]
+          }
+        ]
+      },
+
+      {
         text: "感悟",
         icon: "think",
-        collapsible: false,
+        collapsible: true,
         prefix: "/lifetalk/thinking/",
         children: [
           
@@ -21,7 +49,7 @@ export const zhSidebar = sidebar({
       {
         text: "杂谈",
         icon: "talk",
-        collapsible: false,
+        collapsible: true,
         prefix: "/lifetalk/randomtalk/",
         children: [
           "HelloVuePress",

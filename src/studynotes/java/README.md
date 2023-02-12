@@ -34,6 +34,7 @@ Java 基础、集合、并发编程等！
 ## 集合
 - [集合入门](collection/集合入门.md)
 - [ArrayList 源码分析](collection/ArrayList源码分析.md)
+- [HashMap 源码分析：数据结构](collection/HashMap源码分析：数据结构.md)
 
 ## 并发编程
 - [ThreadLocal 详解](concurrency/ThreadLocal详解.md)
