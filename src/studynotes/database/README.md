@@ -27,8 +27,6 @@ timeline: false
 :::
 
 ## MySQL
-- [Object 类](javase/Object类.html)
-- [String 类](javase/String类.html)
+- [MySQL 常见存储引擎](mysql/MySQL常见存储引擎.md)
 
 ## Redis
-- [volatile 详解](concurrency/volatile详解.html)
