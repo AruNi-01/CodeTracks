@@ -22,6 +22,7 @@ timeline: false
 - 集合：[集合入门](../studynotes/java/collection/集合入门.md)
 - 集合：[ArrayList 源码分析](../studynotes/java/collection/ArrayList源码分析.md)
 - 集合：[HashMap 源码分析：数据结构](../studynotes/java/collection/HashMap源码分析：数据结构.md)
+- 集合：[HashMap 源码分析：功能实现](../studynotes/java/collection/HashMap源码分析：功能实现.md)
 
 **《数据库》**：
 - MySQL：[MySQL 常见存储引擎](../studynotes/database/mysql/MySQL常见存储引擎.md)
