@@ -3,7 +3,7 @@ home: true
 icon: home2
 title: 个人主页
 heroImage: /favicon.png
-heroText: Docs By AruNi
+heroText: Domain By AruNi
 tagline: 🌱 人生最后悔的事情就是，我本可以
 actions:
   - text: 开始阅读 🎉
@@ -47,7 +47,7 @@ footer: Copyright © 2023 AruNi_Lu
 ---
 
 ## 📣 About
-> 👦🏻 **Me**：目前就读于武汉工程大学，软件工程专业大三
+> 👦🏻 **Me**：一名 Javaer，目前就读于武汉工程大学，软件工程专业大三
 
 > 🌀 **Website**：编写此文档以记录一路走来的学习笔记、随感随想
 

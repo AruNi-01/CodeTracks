@@ -24,7 +24,7 @@ export default hopeTheme({
   logo: "/logo.png",
 
   // 导航栏上的个人仓库地址
-  repo: "https://github.com/AruNi-01/docs",
+  repo: "https://github.com/AruNi-01/",
 
   // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
@@ -42,7 +42,7 @@ export default hopeTheme({
   hotReload: true,
 
   // 页面显示信息
-  // pageInfo: ["Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Date", "Word", "ReadingTime", "Category", "Tag"], 
 
   // 路径导航
   breadcrumb: true,
@@ -108,6 +108,9 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+    pwa: true,
+
+
     // 在MD文件中启用的组件
     components: [
       // 为站点提供了在MD文档中自定义颜色的徽章
@@ -132,6 +135,7 @@ export default hopeTheme({
 
     // MarkDown文件增强
     mdEnhance: {
+      tasklist: true,
       align: true,
       attrs: true,
       chart: true,

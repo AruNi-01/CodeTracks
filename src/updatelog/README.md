@@ -26,6 +26,7 @@ timeline: false
 
 **《数据库》**：
 - MySQL：[MySQL 常见存储引擎](../studynotes/database/mysql/MySQL常见存储引擎.md)
+- MySQL：[select 执行流程](../studynotes/database/mysql/select执行流程.md)
 :::
 
 ## 2022 年 12 月

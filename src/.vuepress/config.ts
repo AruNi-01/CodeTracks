@@ -13,7 +13,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "AruNi's docs",
+      title: "AruNi's domain",
       description: "学习文档",
       // 设置 favicon
       head: [
