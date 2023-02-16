@@ -30,5 +30,6 @@ timeline: false
 - [MySQL 常见存储引擎](mysql/MySQL常见存储引擎.md)
 - [select 执行流程](mysql/select执行流程.md)
 - [执行计划之 explain](mysql/执行计划之explain.md)
+- [索引覆盖和索引条件下推](mysql/索引覆盖和索引条件下推.md)
 
 ## Redis

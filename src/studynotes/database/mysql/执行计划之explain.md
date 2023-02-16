@@ -122,15 +122,15 @@ Extra 顾名思义，表示一些额外的信息。虽然它叫 Extra，但它�
 
 几个常见且重要的 Extra 信息如下：
 
-- **Using index**：**索引覆盖**。表示在索引中即可获取到需要查询的记录，不需要再进行回表，增加了效率；
+- **Using index**：**索引覆盖**。表示在二级索引中即可获取到需要查询的记录，不需要再进行回表，增加了效率；
 
-- **Using filesort**：**对结果使用排序算法进行排序，可能会通过文件排序**，效率是很低的。当我们在使用 order by 对结果排序时，如果无法利用索引完成排序操作，就会使用 filesort。
+- **Using filesort**：**对结果使用排序算法进行排序，可能会通过文件排序**，效率是很低的。当我们在使用 order by 对结果排序时，如果无法利用索引完成排序操作，就会使用 filesort；
 
     > 注意：**MySQL 会在 group by 中默认使用 order by**。
 
-- **Using temporary**：**使用了临时表保存中间结果**。常见于 distinct 和 order by，如果无法利用索引来去重或者排序，则需要使用临时表。
+- **Using temporary**：**使用了临时表保存中间结果**。常见于 distinct 和 order by，如果无法利用索引来去重或者排序，则需要使用临时表；
 
-- **Using index condition**：**索引条件下推**（ICP）。这里就不详细讲解什么是 ICP 了。
+- **Using index condition**：**索引条件下推**（ICP）。这里就不详细讲解什么是 ICP 了，具体见 [索引覆盖和索引条件下推](https://aruni.me/docs/studynotes/database/mysql/索引覆盖和索引条件下推.html)；
 
 - **Using where**：**某个搜索条件需要到 server 层进行判断**。
 
