@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@vuepress/client': 2.0.0-beta.60
   '@vuepress/plugin-docsearch': 2.0.0-beta.60
+  '@vuepress/plugin-google-analytics': 2.0.0-beta.60
   '@vuepress/plugin-nprogress': 2.0.0-beta.60
   '@vuepress/plugin-search': 2.0.0-beta.60
   vue: ^3.2.45
@@ -13,6 +14,7 @@ specifiers:
 devDependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.60
   '@vuepress/plugin-docsearch': registry.npmmirror.com/@vuepress/plugin-docsearch/2.0.0-beta.60
+  '@vuepress/plugin-google-analytics': registry.npmmirror.com/@vuepress/plugin-google-analytics/2.0.0-beta.60
   '@vuepress/plugin-nprogress': registry.npmmirror.com/@vuepress/plugin-nprogress/2.0.0-beta.60
   '@vuepress/plugin-search': registry.npmmirror.com/@vuepress/plugin-search/2.0.0-beta.60
   vue: registry.npmmirror.com/vue/3.2.45
@@ -2807,6 +2809,18 @@ packages:
       '@vuepress/core': registry.npmmirror.com/@vuepress/core/2.0.0-beta.60
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.60
       execa: registry.npmmirror.com/execa/6.1.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/@vuepress/plugin-google-analytics/2.0.0-beta.60:
+    resolution: {integrity: sha512-Uq8UiYh2O3pGG7CR+Me6DldumcIA8xnr6hPqjFdqpi4heQifepxxSY1VQcjGrhu1F/8m16O5MryKMaNtg12BqA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-2.0.0-beta.60.tgz}
+    name: '@vuepress/plugin-google-analytics'
+    version: 2.0.0-beta.60
+    dependencies:
+      '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.60
+      '@vuepress/core': registry.npmmirror.com/@vuepress/core/2.0.0-beta.60
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.60
     transitivePeerDependencies:
       - supports-color
     dev: true

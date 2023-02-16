@@ -1,9 +1,10 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import {searchPlugin} from "@vuepress/plugin-search";
 import { nprogressPlugin } from '@vuepress/plugin-nprogress';
 import { commentPlugin } from "vuepress-plugin-comment2";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+
 
 
 //自定义用户配置
@@ -25,21 +26,11 @@ export default defineUserConfig({
   theme,
 
   plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-893HD6BZW1',
+    }),
+
     // 搜索插件
-    // searchPlugin({
-    //   //多语言支持
-    //   locales: {
-    //     "/": {
-    //       placeholder: "搜索 Ctrl+k",
-    //     },
-    //   },
-    //   // 热键支持
-    //   hotKeys: ["command", "k"],
-    //   // 最大推荐个数
-    //   maxSuggestions: 7,
-    //   // 排除首页中的内容
-    //   isSearchable: (page) => page.path !== "/",
-    // }),
     docsearchPlugin({
       appId: "5BC4BBMT90",
       apiKey: "0f8789cd48dbcc5ae98b33d8172fae79",
