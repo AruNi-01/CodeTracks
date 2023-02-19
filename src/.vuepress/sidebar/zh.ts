@@ -5,7 +5,7 @@ export const zhSidebar = sidebar({
 
   "/studynotes/": "structure",
 
-  // "/lifetalk/": "structure",
+  
   "/lifetalk/": [
       {
         text: "面经",

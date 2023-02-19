@@ -26,6 +26,7 @@ export default defineUserConfig({
   theme,
 
   plugins: [
+    // 谷歌统计
     googleAnalyticsPlugin({
       id: 'G-893HD6BZW1',
     }),
