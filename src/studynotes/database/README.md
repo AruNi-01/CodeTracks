@@ -32,5 +32,6 @@ timeline: false
 - [执行计划之 explain](mysql/执行计划之explain.md)
 - [索引覆盖和索引条件下推](mysql/索引覆盖和索引条件下推.md)
 - [联合索引与最左前缀匹配](mysql/联合索引与最左前缀匹配.md)
+- [MySQL 中的锁](mysql/MySQL中的锁.md)
 
 ## Redis

@@ -30,6 +30,7 @@ timeline: false
 - MySQL：[执行计划之 explain](../studynotes/database/mysql/执行计划之explain.md)
 - MySQL：[索引覆盖和索引条件下推](../studynotes/database/mysql/索引覆盖和索引条件下推.md)
 - MySQL：[联合索引与最左前缀匹配](../studynotes/database/mysql/联合索引与最左前缀匹配.md)
+- MySQL：[MySQL 中的锁](../studynotes/database/mysql/MySQL中的锁.md)
 :::
 
 ## 2022 年 12 月
