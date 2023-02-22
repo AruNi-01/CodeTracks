@@ -2,12 +2,12 @@
 # 当前页面内容标题
 title: HTTP 入门
 date: 2022-12-12
-# 当前页面图标
+order: 1
 icon: write
+
 # 分类
 category:
  - 计算机基础
-# 标签
 tag:
  - 网络
 
@@ -23,6 +23,7 @@ timeline: true
 ::: details 本文内容
 [[toc]]
 :::
+
 
 ## 1. HTTP 是什么
 
@@ -239,7 +240,7 @@ http://www.google.com:80/search?q=什么是URI
 http 的 `<authority>` 一般不会写在路径上，所以上面的 scheme 格式解析如下：
 
 - `<scheme>` 为 http；
-- `<path>` 为 www.google.com:80/search；
+- `<path>` 为 www.google.com:80/search ；
 - `<query>` 为 q=什么是URI；
 
 是不是发现，这就是我们通常在地址栏填写的地址，只不过现在大多都是使用 https。
