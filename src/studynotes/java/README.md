@@ -41,3 +41,4 @@ Java 基础、集合、并发编程等！
 - [ThreadLocal 详解](concurrency/ThreadLocal详解.md)
 - [Java 内存模型](concurrency/Java内存模型.md)
 - [volatile 详解](concurrency/volatile详解.md)
+- [AQS 入门：简单了解](concurrency/AQS入门：简单了解.md)

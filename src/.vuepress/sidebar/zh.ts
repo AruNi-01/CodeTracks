@@ -20,7 +20,8 @@ export const zhSidebar = sidebar({
             prefix: "/lifetalk/interview/internship/",
             children: [
               "日常实习-壹沓科技",
-              "日常实习-比邻星球"
+              "日常实习-比邻星球",
+              "日常实习-图灵深视",
             ]
           },
           {

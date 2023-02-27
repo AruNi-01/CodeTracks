@@ -23,6 +23,7 @@ timeline: false
 - 集合：[ArrayList 源码分析](../studynotes/java/collection/ArrayList源码分析.md)
 - 集合：[HashMap 源码分析：数据结构](../studynotes/java/collection/HashMap源码分析：数据结构.md)
 - 集合：[HashMap 源码分析：功能实现](../studynotes/java/collection/HashMap源码分析：功能实现.md)
+- 并发编程：[AQS 入门：简单了解](../studynotes/java/concurrency/AQS入门：简单了解.md)
 
 **《数据库》**：
 - MySQL：[MySQL 常见存储引擎](../studynotes/database/mysql/MySQL常见存储引擎.md)
