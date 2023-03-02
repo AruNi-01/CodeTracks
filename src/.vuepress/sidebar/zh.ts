@@ -5,60 +5,7 @@ export const zhSidebar = sidebar({
 
   "/studynotes/": "structure",
 
-  
-  "/lifetalk/": [
-      {
-        text: "面经",
-        icon: "interview",
-        collapsible: true,
-        prefix: "/lifetalk/interview/",
-        children: [
-          {
-            text: "实习",
-            icon: "internship",
-            collapsible: false,
-            prefix: "/lifetalk/interview/internship/",
-            children: [
-              "日常实习-壹沓科技",
-              "日常实习-比邻星球",
-              "日常实习-图灵深视",
-            ]
-          },
-          {
-            text: "春秋招",
-            icon: "recruit",
-            collapsible: false,
-            prefix: "/lifetalk/interview/recruit/",
-            children: [
-              
-            ]
-          }
-        ]
-      },
-
-      {
-        text: "感悟",
-        icon: "think",
-        collapsible: true,
-        prefix: "/lifetalk/thinking/",
-        children: [
-          
-          
-        ]
-      },
-
-      {
-        text: "杂谈",
-        icon: "talk",
-        collapsible: true,
-        prefix: "/lifetalk/randomtalk/",
-        children: [
-          "HelloVuePress",
-          
-        ]
-      },
-
-    ],
+  "/lifetalk/": "structure",
   
   // ========================= 学习笔记 =========================
   // "/studynotes/": [

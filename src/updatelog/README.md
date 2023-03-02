@@ -22,7 +22,7 @@ timeline: false
 
 
 **《计算机基础》**：
-- 网络：[计算机网络模型](../studynotes/cs/network/计算机网络模型.md)
+- 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
 
 :::
 
@@ -36,16 +36,16 @@ timeline: false
 - 并发编程：[AQS 入门：简单了解](../studynotes/java/concurrency/AQS入门：简单了解.md)
 
 **《数据库》**：
-- MySQL：[MySQL 常见存储引擎](../studynotes/database/mysql/MySQL常见存储引擎.md)
-- MySQL：[select 执行流程](../studynotes/database/mysql/select执行流程.md)
-- MySQL：[执行计划之 explain](../studynotes/database/mysql/执行计划之explain.md)
-- MySQL：[索引覆盖和索引条件下推](../studynotes/database/mysql/索引覆盖和索引条件下推.md)
-- MySQL：[联合索引与最左前缀匹配](../studynotes/database/mysql/联合索引与最左前缀匹配.md)
-- MySQL：[MySQL 中的锁](../studynotes/database/mysql/MySQL中的锁.md)
-- Redis：[kv 数据库如何实现](../studynotes/database/redis/kv数据库如何实现.md)
+- MySQL：[MySQL 常见存储引擎](../studynotes/database/mysql/basis/MySQL常见存储引擎.md)
+- MySQL：[select 执行流程](../studynotes/database/mysql/basia/select执行流程.md)
+- MySQL：[执行计划之 explain](../studynotes/database/mysql/index/执行计划之explain.md)
+- MySQL：[索引覆盖和索引条件下推](../studynotes/database/mysql/index/索引覆盖和索引条件下推.md)
+- MySQL：[联合索引与最左前缀匹配](../studynotes/database/mysql/index/联合索引与最左前缀匹配.md)
+- MySQL：[MySQL 中的锁](../studynotes/database/mysql/lock/MySQL中的锁.md)
+- Redis：[kv 数据库如何实现](../studynotes/database/redis/basis/kv数据库如何实现.md)
 
 **《计算机基础》**：
-- 网络：[HTTPS 入门](../studynotes/cs/network/HTTPS入门.md)
+- 网络：[HTTPS 入门](../studynotes/cs/network/http/HTTPS入门.md)
 :::
 
 ## 2022 年 12 月
@@ -58,5 +58,5 @@ timeline: false
 - 并发编程：[volatile 详解](../studynotes/java/concurrency/volatile详解.md)
 
 **《计算机基础》**：
-- 网络：[什么是 HTTP](../studynotes/cs/network/什么是HTTP.md)
+- 网络：[什么是 HTTP](../studynotes/cs/network/http/什么是HTTP.md)
 :::

@@ -27,12 +27,48 @@ timeline: false
 :::
 
 ## MySQL
-- [MySQL 常见存储引擎](mysql/MySQL常见存储引擎.md)
-- [select 执行流程](mysql/select执行流程.md)
-- [执行计划之 explain](mysql/执行计划之explain.md)
-- [索引覆盖和索引条件下推](mysql/索引覆盖和索引条件下推.md)
-- [联合索引与最左前缀匹配](mysql/联合索引与最左前缀匹配.md)
-- [MySQL 中的锁](mysql/MySQL中的锁.md)
+### 基础
+- [MySQL 常见存储引擎](mysql/basis/MySQL常见存储引擎.md)
+- [select 执行流程](mysql/basis/select执行流程.md)
 
+
+### 索引
+- [执行计划之 explain](mysql/index/执行计划之explain.md)
+- [索引覆盖和索引条件下推](mysql/index/索引覆盖和索引条件下推.md)
+- [联合索引与最左前缀匹配](mysql/index/联合索引与最左前缀匹配.md)
+
+
+### 日志
+
+
+### 事务
+
+
+### 缓冲池
+
+
+### 锁
+- [MySQL 中的锁](mysql/lock/MySQL中的锁.md)
+
+
+
+<!-- --------------------------------------------------- -->
 ## Redis
-- [kv 数据库如何实现](redis/kv数据库如何实现.md)
+
+### 基础
+- [kv 数据库如何实现](redis/basis/kv数据库如何实现.md)
+
+### 数据结构
+
+
+### 持久化
+
+
+### 功能模块
+
+
+### 缓存
+
+
+### 高可用
+

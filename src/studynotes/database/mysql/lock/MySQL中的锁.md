@@ -2,7 +2,7 @@
 # 当前页面内容标题
 title: MySQL 中的锁
 date: 2023-2-21
-order: 6
+order: 1
 icon: write
 
 # 分类
