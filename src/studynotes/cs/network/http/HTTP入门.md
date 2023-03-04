@@ -25,6 +25,7 @@ timeline: true
 :::
 
 
+
 ## 1. HTTP 是什么
 
 HTTP 全称是 Hyper Text Transfer Protocol，意为超文本传输协议。它是 **应用层** 一个简单的 **请求-响应** 协议，通常运行在 **TCP 之上**（HTTP 3.0 之前）。
@@ -81,7 +82,7 @@ Date: Tue, 15 Nov 1994 08:12:31 GMT
 Server: CERN/3.0 libwww/2.17
 Content-Type: text/html
 <HTML>
-  一个包含图片的页面
+一个包含图片的页面
   <IMG SRC="/myimage.gif">
 </HTML>
 ```
@@ -217,6 +218,7 @@ URI 全称 Uniform Resource Identifier，意为统一资源 **标志符**，标�
 URI 可以是 Web 系统中的某个图片地址，也可以是某个人的邮箱地址等等。
 
 ::: tip URI 的格式
+
 :::
 
 下面的 scheme 指的是协议，URI 的通用格式没有太多限制，一般是以 scheme 开头，冒号 ":" 分隔开：
@@ -240,7 +242,7 @@ http://www.google.com:80/search?q=什么是URI
 http 的 `<authority>` 一般不会写在路径上，所以上面的 scheme 格式解析如下：
 
 - `<scheme>` 为 http；
-- `<path>` 为 www.google.com:80/search ；
+- `<path>` 为 www.google.com:80/search；
 - `<query>` 为 q=什么是URI；
 
 是不是发现，这就是我们通常在地址栏填写的地址，只不过现在大多都是使用 https。
@@ -267,9 +269,42 @@ URI 就好比告诉了你某个东西表示的是什么，而 RUL 则是具体�
 
 而如果把定位告诉你，比如中国的经纬度位置，这就是定位，你就知道中国所处的位置信息。
 
-## 4. HTTP 常见字段
+## 4. HTTP 报文格式
+
+HTTP 报文分为请求报文和响应报文，它们的报文格式有些许不一样，下面分别来看看。
+
+### 4.1 HTTP 请求报文格式
+
+HTTP 请求报文由三部分组成，分别是 **请求行、请求头和请求体**：
+
+![image-20230304180645058](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303041806156.png)
+
+- 请求行：包含请求方法、请求资源文件的 URL 地址（不含域名）、使用的协议和版本号；
+- 请求头：包含若干属性，格式为 `属性名：属性值`，常见的属性包括接收的数据格式/编码/语言、目标服务器的域名、缓存控制、Cookie 等。
+- 请求体：请求的内容。
+
+示例：
+
+![](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303041412642.png)
+
+### 4.2 HTTP 响应报文格式
+
+HTTP 请求报文也是由三部分组成，分别是 **响应行、响应头和响应体**：
+
+![image-20230304180905317](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303041813269.png)
+
+- 响应行：使用的协议和版本号、状态码、状态码的描述信息；
+- 响应头：包含若干属性，格式为 `属性名：属性值`，常见的属性包括响应的数据格式/编码、响应的数据长度等；
+- 响应体：响应的内容。
+
+示例：
+
+![image-20230304181345535](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303041813617.png)
+
+### 4.3 请求/响应头常见字段
 
 ::: tip Host 字段
+
 :::
 
 客户端发送请求时，**Host 用来指定服务器的域名**，能够使 **不同域名配置在同一个 IP 地址的服务器上**。
@@ -279,6 +314,7 @@ URI 就好比告诉了你某个东西表示的是什么，而 RUL 则是具体�
 ![image-20221212151656349](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202212121516304.png)
 
 ::: tip Connection 字段
+
 :::
 
 Connection 字段主要用于客户端要求服务器使用长连接，以便其他请求复用。
@@ -290,6 +326,7 @@ HTTP/1.1 版本的默认连接都是持久连接，但为了兼容老版本的 H
 ![image-20221212163831330](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202212121638259.png)
 
 ::: tip Content-Type 字段
+
 :::
 
 Content-Type 用于表示 **响应报文的数据格式**，如下表示返回的是一个网页，编码为 utf-8：
@@ -301,6 +338,7 @@ Content-Type 用于表示 **响应报文的数据格式**，如下表示返回�
 ![image-20221212152714287](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202212121527335.png)
 
 ::: tip Content-Length
+
 :::
 
 Content-Length 字段表示 **响应数据的长度**，使用此字段可以告诉浏览器本次响应的数据长度，剩下的数据是下一个响应了。
@@ -310,6 +348,7 @@ Content-Length 字段表示 **响应数据的长度**，使用此字段可以告
 ![image-20221212162241403](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202212121622380.png)
 
 ::: tip Content-Encoding 字段
+
 :::
 
 Content-Encoding 字段表示数据的压缩方法，表示服务器响应的数据使用了什么压缩格式。
@@ -333,30 +372,37 @@ HTTP 有五大类状态码，如下所示：
 下面介绍一些常见的状态码。
 
 ::: info 2XX — 成功：
-- 200 OK：**请求正常处理**
+
+- 200 OK：请求 **正常处理**
 - 204 No Content：请求处理成功，但 **没有资源可返回**
 - 206 Partial Content：对某资源的 **部分请求**，表示客户端进行了范围请求，响应报文中包含由 Content-Range 指定范围的实体内容
+
 :::
 
 ::: info 3XX — 重定向：
+
 - 301 Moved Permanently：**永久重定向** — 资源的 URI 已更新，让客户端也更新下
 - 302 Found：**临时重定向** — 资源的 URI 临时定位到了其他的位置
 - 304 Not Modified：**与重定向无关**，自从上次访问后，服务器对该资源没有做过改变，让浏览器 **使用未过期的本地缓存**
+
 :::
 
-
 ::: info 4XX — 客户端错误：
+
 - 400 Bad Request：服务器 **无法理解该请求**，请求报文可能有语法错误
 - 401 Unauthorized：**没有请求权限**，通常浏览器会弹出一个对话框，让用户进行登录认证
 - 403 Forbidden：**不允许访问该资源**，请求的资源被服务器拒绝了
 - 404 Not Found：服务器上 **不存在该资源**，可能是路径错误等
+
 :::
 
 ::: info 5XX — 服务端错误：
+
 - 500 Internal Server Error：**服务器内部资源出现故障**，可能是服务端出现了 Bug 等
 - 502 Bad Gateway：**网关错误**，在软件架构中网关通常指用于分发请求的代理服务，如 Nginx 作为代理接收请求，再分发到后面的具体服务器。502 指代理服务器正常，但是 **代理要去访问源站时发生了错误**，代理服务器接收到无效的响应
 - 503 Service Unavailable：**服务器正忙**，说明服务器超负载或停机维护了
-- 504 Gateway Timeout：**网关超时，指代理服务器请求源服务器超时了**
+- 504 Gateway Timeout：**网关超时**，**指代理服务器请求源服务器超时了**
+
 :::
 
 ## 6. HTTP 请求方法
@@ -377,6 +423,7 @@ HTTP 请求方法一览：
 ### 6.2 幂等和安全的方法
 
 ::: tip 什么是幂等？
+
 :::
 
 HTTP 方法的幂等性是指 **一次和多次请求某一个资源，得到的结果是相同的**。
@@ -400,6 +447,7 @@ POST 和 PUT 单独介绍，因为他们比较容易混淆。
 幂等性也是 POST 和 PUT 的 **真正区别**。
 
 ::: tip 什么是安全？
+
 :::
 
 HTTP 方法的安全性指的是 **请求方法不会改变服务器的状态，则该方法是安全的**。
@@ -410,8 +458,6 @@ HTTP 方法的安全性指的是 **请求方法不会改变服务器的状态，
 
 ## 7. 参考文章
 
-- [图解网络 —— HTTP 篇](https://xiaolincoding.com/network/)
-
+- [小林 coding](https://xiaolincoding.com/network/)
 - [HTTP 入门教程](https://www.imooc.com/wiki/httplesson/)
-
 - [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)

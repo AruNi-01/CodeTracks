@@ -23,6 +23,7 @@ timeline: false
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
+- 网络：[键入 URL 到页面显示全过程](../studynotes/cs/network/basis/键入URL到页面显示全过程.md)
 
 :::
 
