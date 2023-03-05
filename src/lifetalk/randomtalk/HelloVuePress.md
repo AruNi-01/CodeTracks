@@ -20,6 +20,12 @@ article: true
 timeline: true
 ---
 
+<AudioPlayer
+  src="/mp3/Chris James - 12 Hours.mp3"
+  title="Chris James - 12 Hours"
+  poster="/mp3/logo/Chris James - 12 Hours.png"
+/>
+
 ::: tip 今天，我的博客文档诞生了
 :::
 

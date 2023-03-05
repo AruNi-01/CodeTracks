@@ -17,7 +17,7 @@ export default hopeTheme({
   },
 
   // 使用官方提供的图标库-也可以构建自己的图标库
-  iconAssets: "//at.alicdn.com/t/c/font_3869136_lmym68acy4c.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3869136_2iqduinwlv.css",
   iconPrefix: "icon-",
 
   // 网站图标
@@ -111,17 +111,26 @@ export default hopeTheme({
     pwa: true,
 
 
-    // 在MD文件中启用的组件
-    components: [
-      // 为站点提供了在MD文档中自定义颜色的徽章
-      "Badge",
-      // 为站点提供了在MD文档中加载B站视频的功能，但是不建议使用
-      "BiliBili",
-      // 为站点提供了在MD文档中加载PDF阅读器的功能，但是不建议使用
-      // 原因一：PDF书籍较大，上传到码云后会大量占用码云空间
-      // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
-      "PDF",
-    ],
+    components: {
+      // 在MD文件中启用的组件
+      components: [
+        // 为站点提供了在MD文档中自定义颜色的徽章
+        "Badge",
+        // 为站点提供了在MD文档中加载B站视频的功能，但是不建议使用
+        "BiliBili",
+        // 为站点提供了在MD文档中加载PDF阅读器的功能，但是不建议使用
+        // 原因一：PDF书籍较大，上传到码云后会大量占用码云空间
+        // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
+        "PDF",
+
+        // 音乐播放器
+        "AudioPlayer",
+      ],
+      
+      rootComponents: {
+        addThis: "ra-640435c5c88b015c",
+      },
+    },
 
     // 代码复制功能-vuepress-plugin-copy-code2
     copyCode: {
