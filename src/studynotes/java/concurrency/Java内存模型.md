@@ -21,11 +21,13 @@ article: true
 timeline: true
 ---
 
+<div class="addthis_inline_share_toolbox"></div>
+
+---
+
 ::: details 本文内容
 [[toc]]
 :::
-
-揭开 Java 内存模型神秘的面纱
 
 ## 1. Java 内存模型基础
 

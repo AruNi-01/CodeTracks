@@ -20,6 +20,14 @@ article: true
 timeline: true
 ---
 
+<div class="addthis_inline_share_toolbox"></div>
+
+---
+
+::: details 本文内容
+[[toc]]
+:::
+
 <AudioPlayer
   src="/mp3/Chris James - 12 Hours.mp3"
   title="Chris James - 12 Hours"

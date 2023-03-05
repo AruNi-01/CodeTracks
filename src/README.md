@@ -52,7 +52,7 @@ footer: Copyright © 2023 AruNi_Lu
 > 🌀 **Website**：编写此文档以记录一路走来的学习笔记、随感随想
 
 ## 👋🏻 Contact
-> 🤝 **QQ**：<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1298911600">Click Me</a>
+> 🐧 **QQ**：<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1298911600">Click Me</a>
 
 > 🎗️ **Wechat**：
 > 
