@@ -26,13 +26,19 @@ timeline: false
 计算机基础知识，包含操作系统、网络等！
 :::
 
-## 操作系统
-
-
 ## 网络
-### 基础
-- [计算机网络模型](network/basis/计算机网络模型.md)
 
-### HTTP
+::: note 基础
+- [计算机网络模型](network/basis/计算机网络模型.md)
+:::
+
+::: note HTTP
 - [HTTP 入门](network/http/HTTP入门.md)
 - [HTTPS 入门](network/http/HTTPS入门.md)
+:::
+
+::: note TCP
+
+:::
+
+## 操作系统
