@@ -20,6 +20,8 @@ timeline: false
 ## 2023 年 3 月
 ::: tip 新增文章
 
+**《数据库》**：
+- MySQL：[了解 Buffer Pool](../studynotes/database/mysql/buffer_pool/了解BufferPool.md)
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
