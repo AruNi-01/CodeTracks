@@ -20,9 +20,7 @@ article: true
 timeline: true
 ---
 
-<div class="addthis_inline_share_toolbox"></div>
-
----
+ 
 
 ::: details 本文内容
 [[toc]]
@@ -172,6 +170,8 @@ Buffer Pool 中划分出了一个个缓冲页，InnDB 使用链表来管理这�
 - **free 链表**（空闲页链表）：管理还没有使用的空闲页；
 - **flush 链表**（脏页链表）：管理有过数据修改的脏页；
 - **LRU 链表**：管理 **脏页 + 干净页**（只读的页），将最近且经常访问的数据进行保留，而淘汰不常访问的数据。
+
+![img](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303061847080.png)
 
 此外，还需要特别注意脏页的刷盘时机，以免出现性能问题。
 

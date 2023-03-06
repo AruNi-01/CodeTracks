@@ -49,6 +49,7 @@ timeline: false
 
 ::: note 缓冲池
 - [了解 Buffer Pool](mysql/buffer_pool/了解BufferPool.md)
+- [提高缓存命中率的 LRU 链表](mysql/buffer_pool/提高缓存命中率的LRU链表.md)
 :::
 
 ::: note 锁

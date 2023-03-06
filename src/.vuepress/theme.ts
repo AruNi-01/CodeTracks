@@ -128,7 +128,8 @@ export default hopeTheme({
       ],
       
       rootComponents: {
-        addThis: "ra-640435c5c88b015c",
+        // addThis 分享按钮
+        // addThis: "ra-640435c5c88b015c",
       },
     },
 

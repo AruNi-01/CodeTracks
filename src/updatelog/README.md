@@ -22,6 +22,7 @@ timeline: false
 
 **《数据库》**：
 - MySQL：[了解 Buffer Pool](../studynotes/database/mysql/buffer_pool/了解BufferPool.md)
+- MySQL：[提高缓存命中率的 LRU 链表](../studynotes/database/mysql/buffer_pool/提高缓存命中率的LRU链表.md)
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
