@@ -1,10 +1,10 @@
 ---
-title: LeetCode 算法
+title: 中间件
 date: 2023-1-23
-icon: a-structure4-fill
+icon: middleware
 index: false
 dir:
-  order: 5
+  order: 6
 
 # 分类
 category:
@@ -22,13 +22,3 @@ article: false
 timeline: false
 ---
 
-::: tip 相关内容
-基础排序算法，LeetCode 算法题解！
-:::
-
-## 排序算法
-- [Object 类](javase/Object类.html)
-- [String 类](javase/String类.html)
-
-## 剑指 Offer
-- [volatile 详解](concurrency/volatile详解.html)

@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: 崩溃恢复神器：redo log
+title: redo log：崩溃恢复神器
 date: 2023-3-7
 order: 1
 icon: write

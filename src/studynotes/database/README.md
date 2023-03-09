@@ -40,7 +40,7 @@ timeline: false
 :::
 
 ::: note 日志
-- [崩溃恢复神器：redo log](mysql/log/崩溃恢复神器：redo%20log.md)
+- [redo log：崩溃恢复神器](mysql/log/redo%20log：崩溃恢复神器.md)
 
 :::
 

@@ -23,11 +23,16 @@ timeline: false
 **《数据库》**：
 - MySQL：[了解 Buffer Pool](../studynotes/database/mysql/buffer_pool/了解BufferPool.md)
 - MySQL：[提高缓存命中率的 LRU 链表](../studynotes/database/mysql/buffer_pool/提高缓存命中率的LRU链表.md)
-- MySQL：[崩溃恢复神器：redo log](../studynotes/database/mysql/log/崩溃恢复神器：redo%20log.md)
+- MySQL：[redo log：崩溃恢复神器](../studynotes/database/mysql/log/redo%20log：崩溃恢复神器.md)
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
 - 网络：[键入 URL 到页面显示全过程](../studynotes/cs/network/basis/键入URL到页面显示全过程.md)
+
+**《框架》**：
+- small-spring：[第一章：简单的 Bean 容器](../studynotes/framework/small-spring/ioc/第一章：简单的Bean容器.md)
+- small-spring：[第二章：Bean 的定义、注册、获取](../studynotes/framework/small-spring/ioc/第二章：Bean%20的定义、注册、获取.md)
+
 
 :::
 

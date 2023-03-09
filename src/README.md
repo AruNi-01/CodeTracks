@@ -25,22 +25,22 @@ features:
     icon: computer
     details: 操作系统、网络相关
     link: /studynotes/cs/
+  - title: 框架
+    icon: framework
+    details: 后端常用框架
+    link: /studynotes/framework/
   - title: 算法题解
     icon: a-structure4-fill
     details: LeetCode 算法题解
     link: /studynotes/algo/
   - title: 中间件
-    icon: box
+    icon: middleware
     details: 后端常用中间件
     link: /studynotes/middleware/
   - title: 人生杂谈
     icon: rensheng
     details: 非技术内容，感悟、面经等
     link: /lifetalk/
-  - title: 更新日志
-    icon: rizhi
-    details: 网站文章的更新详情
-    link: /updatelog/
 
 copyright: false
 footer: Copyright © 2023 AruNi_Lu

@@ -23,7 +23,7 @@ timeline: false
 ---
 
 ::: tip 相关内容
-这里是我的学习笔记，涵盖 Java、数据库、计算机基础、算法、中间件等！
+这里是我的学习笔记，涵盖 Java、数据库、计算机基础、框架、算法、中间件等！
 :::
 
 ## [<FontIcon icon="java"/> Java](java/)
@@ -32,6 +32,8 @@ timeline: false
 
 ## [<FontIcon icon="computer"/> 计算机基础](cs/)
 
+## [<FontIcon icon="framework"/> 框架](framework/)
+
 ## [<FontIcon icon="a-structure4-fill"/> LeetCode 算法](algo/)
 
-## [<FontIcon icon="box"/> 中间件](middleware/)
+## [<FontIcon icon="middleware"/> 中间件](middleware/)

@@ -17,7 +17,7 @@ export default hopeTheme({
   },
 
   // 使用官方提供的图标库-也可以构建自己的图标库
-  iconAssets: "//at.alicdn.com/t/c/font_3869136_2iqduinwlv.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3869136_0dx5fy68nwq.css",
   iconPrefix: "icon-",
 
   // 网站图标
@@ -130,6 +130,24 @@ export default hopeTheme({
       rootComponents: {
         // addThis 分享按钮
         // addThis: "ra-640435c5c88b015c",
+
+        // 通知组件
+        // notice: [
+        //   {
+        //     path: "/",
+        //     title: "Notice",
+        //     content: "喜欢此网站？",
+        //     actions: [
+        //       {
+        //         text: "立即搭建",
+        //         link: "https://theme-hope.vuejs.press/",
+        //         type: "primary",
+        //       },
+        //       { text: "取消" },
+        //     ],
+        //     fullscreen: false,
+        //   },
+        // ],
       },
     },
 
