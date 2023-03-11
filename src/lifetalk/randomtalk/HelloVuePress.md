@@ -20,7 +20,6 @@ article: true
 timeline: true
 ---
 
- 
 
 ::: details 本文内容
 [[toc]]
@@ -44,8 +43,10 @@ VuePress 的优点：
 - Vue 驱动，享受 Vue + webpack 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题；
 - 高性能，VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行；
 - 易部署，VuePress 有很多种部署方式，且都相对较简单。本站部署到 GitHub Pages，[Github Actions](https://docs.github.com/cn/actions)（Github 的持续集成服务）自动实现 commit 后推送静态文件到仓库的指定分支；
-- 好看的主题，搭建该文档的一个重要原因是 [VuePress-Hope-Theme](https://theme-hope.vuejs.press/zh) 这个主题太漂亮了。
+- 好看的主题，该文档基于 [VuePress-Hope-Theme](https://theme-hope.vuejs.press/zh) 主题搭建。
 
 ## 为什么要搭建博客 ？
 
-搭建一个简单的博客，不需要花费大量时间，平时有兴致的时候可以有个小地方记录生活、记录日常。它并不是必须的，但确可以提高个人满足感。当你写满一篇又一篇文章时，或多或少会有些许成就感。
+一个很重要的原因是 **沉淀技术**，认为自己会和能自己写出来、说出来，是完全不一样的。
+
+其次，搭建一个简单的博客，不需要花费大量时间，平时有兴致的时候可以有个小地方记录日常、所感。它并不是必须的，但确可以提高个人满足感。当你写满一篇又一篇文章时，或多或少会有些许成就感。

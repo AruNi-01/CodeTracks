@@ -41,6 +41,7 @@ timeline: false
 
 ::: note 日志
 - [redo log：崩溃恢复神器](mysql/log/redo%20log：崩溃恢复神器.md)
+- [binlog：主从复制和备份](mysql/log/binlog：主从复制和备份.md)
 
 :::
 

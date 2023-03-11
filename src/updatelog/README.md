@@ -24,6 +24,7 @@ timeline: false
 - MySQL：[了解 Buffer Pool](../studynotes/database/mysql/buffer_pool/了解BufferPool.md)
 - MySQL：[提高缓存命中率的 LRU 链表](../studynotes/database/mysql/buffer_pool/提高缓存命中率的LRU链表.md)
 - MySQL：[redo log：崩溃恢复神器](../studynotes/database/mysql/log/redo%20log：崩溃恢复神器.md)
+- MySQL：[binlog：主从复制和备份](../studynotes/database/mysql/log/binlog：主从复制和备份.md)
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
