@@ -26,12 +26,13 @@ timeline: false
 手写一个简易的 Spring，主要包括容器、代理等相关的功能。 
 
 ::: right
-——项目来源：小傅哥（[Spring 手撸专栏](https://bugstack.cn/md/spring/develop-spring/2021-05-16-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)）
+——项目来源：小傅哥《手写 Spring 渐进式源码实践》
 :::
 
 ## 容器篇：IoC
 - [第一章：简单的 Bean 容器](ioc/第一章：简单的Bean容器.md)
 - [第二章：Bean 的定义、注册、获取](ioc/第二章：Bean%20的定义、注册、获取.md)
+- [第三章：实现含构造函数的类实例化策略](ioc/第三章：实现含构造函数的类实例化策略.md)
 
 ## 代理篇：AOP
 

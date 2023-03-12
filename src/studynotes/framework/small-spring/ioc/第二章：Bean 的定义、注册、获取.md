@@ -60,6 +60,8 @@ timeline: true
 
 - 外部调用就是通过 DefaultListableBeanFactory 调用继承链中模板类 AbstractBeanFactory 的 `getBean()` 方法来获取 Bean 实例。
 
+## 3. 测试
+
 测试方法：
 
 ```java
@@ -83,6 +85,8 @@ timeline: true
  
  }
 ```
+
+## 4. 流程
 
 注册、获取 Bean 的流程图：
 

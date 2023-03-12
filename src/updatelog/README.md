@@ -33,6 +33,7 @@ timeline: false
 **《框架》**：
 - small-spring：[第一章：简单的 Bean 容器](../studynotes/framework/small-spring/ioc/第一章：简单的Bean容器.md)
 - small-spring：[第二章：Bean 的定义、注册、获取](../studynotes/framework/small-spring/ioc/第二章：Bean%20的定义、注册、获取.md)
+- small-spring：[第三章：实现含构造函数的类实例化策略](../studynotes/framework/small-spring/ioc/第三章：实现含构造函数的类实例化策略.md)
 
 
 :::

@@ -42,6 +42,8 @@ timeline: true
 - BeanDefinition 中定义 Bean，提供一个获取 Bean 的方法；
 - BeanFactory 工厂提供一个 Bean 容器 Map，以及提供往容器中注入 Bean，从容器中获取 Bean 的方法。
 
+## 3. 测试
+
 测试方法如下：
 
 ```java
@@ -62,6 +64,8 @@ public void test_BeanFactory() {
     // 输出：查询用户信息
 }
 ```
+
+## 4. 流程
 
 流程如下：
 
