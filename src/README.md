@@ -37,10 +37,10 @@ features:
     icon: middleware
     details: 后端常用中间件
     link: /studynotes/middleware/
-  - title: 人生杂谈
-    icon: rensheng
-    details: 非技术内容，感悟、面经等
-    link: /lifetalk/
+  - title: 设计模式
+    icon: design-pattern
+    details: 设计模式与范式相关
+    link: /studynotes/design_pattern/
 
 copyright: false
 footer: Copyright © 2023 AruNi_Lu
