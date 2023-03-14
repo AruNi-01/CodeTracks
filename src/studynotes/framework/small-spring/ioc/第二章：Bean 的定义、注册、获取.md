@@ -39,6 +39,10 @@ timeline: true
 
 除了使用工厂模式外，这里再使用一个 **模板方法模式** 定义创建和获取 Bean 的抽象方法，具体的实现由子类完成。
 
+目录结构更新如下：
+
+![image-20230314082119557](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303140821065.png)
+
 各个类的关系、职责如下图所示：
 
 ![image-20230309193732265](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303091937370.png)
