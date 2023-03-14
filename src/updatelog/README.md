@@ -32,10 +32,10 @@ timeline: false
 - 网络：[键入 URL 到页面显示全过程](../studynotes/cs/network/basis/键入URL到页面显示全过程.md)
 
 **《框架》**：
-- small-spring：[第一章：简单的 Bean 容器](../studynotes/framework/small-spring/ioc/第一章：简单的Bean容器.md)
-- small-spring：[第二章：Bean 的定义、注册、获取](../studynotes/framework/small-spring/ioc/第二章：Bean%20的定义、注册、获取.md)
-- small-spring：[第三章：实现含构造函数的类实例化策略](../studynotes/framework/small-spring/ioc/第三章：实现含构造函数的类实例化策略.md)
-- small-spring：[第四章：注入属性和依赖对象](../studynotes/framework/small-spring/ioc/第四章：注入属性和依赖对象.md)
+- small-spring：[第01章：简单的 Bean 容器](../studynotes/framework/small-spring/ioc/第01章：简单的Bean容器.md)
+- small-spring：[第02章：Bean 的定义、注册、获取](../studynotes/framework/small-spring/ioc/第02章：Bean%20的定义、注册、获取.md)
+- small-spring：[第03章：实现含构造函数的类实例化策略](../studynotes/framework/small-spring/ioc/第03章：实现含构造函数的类实例化策略.md)
+- small-spring：[第04章：注入属性和依赖对象](../studynotes/framework/small-spring/ioc/第04章：注入属性和依赖对象.md)
 
 **《设计模式》**：
 - 设计原则与思想：[面向对象是什么](../studynotes/design_pattern/mind/oop/面向对象是什么.md)

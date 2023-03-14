@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: 第一章：简单的 Bean 容器
+title: 第01章：简单的 Bean 容器
 date: 2023-3-8
 order: 1
 icon: write
