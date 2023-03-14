@@ -36,6 +36,7 @@ timeline: false
 - small-spring：[第02章：Bean 的定义、注册、获取](../studynotes/framework/small-spring/ioc/第02章：Bean%20的定义、注册、获取.md)
 - small-spring：[第03章：实现含构造函数的类实例化策略](../studynotes/framework/small-spring/ioc/第03章：实现含构造函数的类实例化策略.md)
 - small-spring：[第04章：注入属性和依赖对象](../studynotes/framework/small-spring/ioc/第04章：注入属性和依赖对象.md)
+- small-spring：[第05章：资源加载器解析文件注册对象](../studynotes/framework/small-spring/ioc/第05章：资源加载器解析文件注册对象.md)
 
 **《设计模式》**：
 - 设计原则与思想：[面向对象是什么](../studynotes/design_pattern/mind/oop/面向对象是什么.md)
