@@ -27,11 +27,18 @@ timeline: false
 :::
 
 ## 🎭 面经
-实习：
+
+<FontIcon icon="internship"/> 实习：
+
 - [日常实习 - 壹沓科技](interview/internship/日常实习-壹沓科技.md)
 - [日常实习 - 比邻星球](interview/internship/日常实习-比邻星球.md)
 - [日常实习 - 图灵深视](interview/internship/日常实习-图灵深视.md)
 - [日常实习 - 优地网络](interview/internship/日常实习-优地网络.md)
+- [日常实习 - 亚信科技](interview/internship/日常实习-亚信科技.md)
+
+
+<FontIcon icon="recruit"/> 秋招：
+
 
 ## 💡 感悟
 

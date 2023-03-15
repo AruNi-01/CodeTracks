@@ -26,6 +26,7 @@ timeline: false
 - MySQL：[redo log：崩溃恢复神器](../studynotes/database/mysql/log/redo%20log：崩溃恢复神器.md)
 - MySQL：[binlog：主从复制和备份](../studynotes/database/mysql/log/binlog：主从复制和备份.md)
 - MySQL：[update 执行流程](../studynotes/database/mysql/log/update%20执行流程.md)
+- MySQL：[两阶段提交有什么问题](../studynotes/database/mysql/log/两阶段提交有什么问题.md)
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)

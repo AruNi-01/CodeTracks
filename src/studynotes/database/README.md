@@ -43,6 +43,7 @@ timeline: false
 - [redo log：崩溃恢复神器](mysql/log/redo%20log：崩溃恢复神器.md)
 - [binlog：主从复制和备份](mysql/log/binlog：主从复制和备份.md)
 - [update 执行流程](mysql/log/update%20执行流程.md)
+- [两阶段提交有什么问题](mysql/log/两阶段提交有什么问题.md)
 
 :::
 
