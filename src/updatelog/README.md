@@ -40,6 +40,9 @@ timeline: false
 
 **《设计模式》**：
 - 设计原则与思想：[面向对象是什么](../studynotes/design_pattern/mind/oop/面向对象是什么.md)
+- 设计原则与思想：[面向对象和面向过程的区别](../studynotes/design_pattern/mind/oop/面向对象和面向过程的区别.md)
+- 设计原则与思想：[你写的真的是面向对象的代码吗](../studynotes/design_pattern/mind/oop/你写的真的是面向对象的代码吗.md)
+
 :::
 
 ## 2023 年 2 月

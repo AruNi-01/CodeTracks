@@ -111,6 +111,8 @@ timeline: true
 - 如果是，则提交事务，进行恢复；
 - 否则，回滚该事务，再进行恢复；
 
+> **注意**：**这种情况需要把 innodb_flush_log_at_trx_commit 设置成 1**，让事务执行提交操作时，即在 prepare 状态时，就会将 redo log 持久化一次，这样 **崩溃恢复时才能在文件中找到 redo log**。
+
 ::: info 如何判断 binlog 是否完整呢？
 
 一个事务的 **binlog 如果完整，那么会有一个标志**：
