@@ -44,6 +44,7 @@ timeline: false
 - [binlog：主从复制和备份](mysql/log/binlog：主从复制和备份.md)
 - [update 执行流程](mysql/log/update%20执行流程.md)
 - [两阶段提交有什么问题](mysql/log/两阶段提交有什么问题.md)
+- [undo log：世上真有后悔药](mysql/log/undo%20log：世上真有后悔药.md)
 
 :::
 

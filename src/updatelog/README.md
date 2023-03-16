@@ -27,10 +27,13 @@ timeline: false
 - MySQL：[binlog：主从复制和备份](../studynotes/database/mysql/log/binlog：主从复制和备份.md)
 - MySQL：[update 执行流程](../studynotes/database/mysql/log/update%20执行流程.md)
 - MySQL：[两阶段提交有什么问题](../studynotes/database/mysql/log/两阶段提交有什么问题.md)
+- MySQL：[undo log：世上真有后悔药](../studynotes/database/mysql/log/undo%20log：世上真有后悔药.md)
+
 
 **《计算机基础》**：
 - 网络：[计算机网络模型](../studynotes/cs/network/basis/计算机网络模型.md)
 - 网络：[键入 URL 到页面显示全过程](../studynotes/cs/network/basis/键入URL到页面显示全过程.md)
+
 
 **《框架》**：
 - small-spring：[第01章：简单的 Bean 容器](../studynotes/framework/small-spring/ioc/第01章：简单的Bean容器.md)
@@ -39,10 +42,12 @@ timeline: false
 - small-spring：[第04章：注入属性和依赖对象](../studynotes/framework/small-spring/ioc/第04章：注入属性和依赖对象.md)
 - small-spring：[第05章：资源加载器解析文件注册对象](../studynotes/framework/small-spring/ioc/第05章：资源加载器解析文件注册对象.md)
 
+
 **《设计模式》**：
 - 设计原则与思想：[面向对象是什么](../studynotes/design_pattern/mind/oop/面向对象是什么.md)
 - 设计原则与思想：[面向对象和面向过程的区别](../studynotes/design_pattern/mind/oop/面向对象和面向过程的区别.md)
 - 设计原则与思想：[你写的真的是面向对象的代码吗](../studynotes/design_pattern/mind/oop/你写的真的是面向对象的代码吗.md)
+
 
 :::
 
