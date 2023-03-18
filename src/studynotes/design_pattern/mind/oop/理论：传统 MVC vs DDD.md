@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: 理论：传统 MVC vs DDD
-date: 2023-3-17
+date: 2023-3-18
 order: 5
 icon: write
 
