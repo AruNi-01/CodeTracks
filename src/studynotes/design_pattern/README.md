@@ -36,6 +36,9 @@ timeline: false
 - [面向对象是什么](mind/oop/面向对象是什么.md)
 - [面向对象和面向过程的区别](mind/oop/面向对象和面向过程的区别.md)
 - [你写的真的是面向对象的代码吗](mind/oop/你写的真的是面向对象的代码吗.md)
+- [真正理解接口和抽象类]()
+- [理论：传统 MVC vs DDD](mind/oop/理论：传统%20MVC%20vs%20DDD.md)
+- [实战：传统 MVC vs DDD](mind/oop/实战：传统%20MVC%20vs%20DDD.md)
 
 :::
 

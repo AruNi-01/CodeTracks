@@ -47,6 +47,9 @@ timeline: false
 - 设计原则与思想：[面向对象是什么](../studynotes/design_pattern/mind/oop/面向对象是什么.md)
 - 设计原则与思想：[面向对象和面向过程的区别](../studynotes/design_pattern/mind/oop/面向对象和面向过程的区别.md)
 - 设计原则与思想：[你写的真的是面向对象的代码吗](../studynotes/design_pattern/mind/oop/你写的真的是面向对象的代码吗.md)
+- 设计原则与思想：[真正理解接口和抽象类]()
+- 设计原则与思想：[理论：传统 MVC vs DDD](../studynotes/design_pattern/mind/oop/理论：传统%20MVC%20vs%20DDD.md)
+- 设计原则与思想：[实战：传统 MVC vs DDD](../studynotes/design_pattern/mind/oop/实战：传统%20MVC%20vs%20DDD.md)
 
 
 :::
