@@ -63,4 +63,4 @@ footer: Copyright © 2023 AruNi_Lu
 
 > 🎨 Theme By <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress-Hope-Theme</a>
 
-> 🚀 Deploy By <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+> 🚀 Deploy By <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> & <a href="https://www.cloudflare-cn.com/" target="_blank">Cloudflare</a>
