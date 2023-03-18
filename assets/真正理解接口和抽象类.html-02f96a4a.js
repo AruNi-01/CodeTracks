@@ -1,0 +1,1 @@
+import{_,Y as t,Z as s,a2 as e}from"./framework-3ccafb52.js";const a={},n=e("details",{class:"hint-container details"},[e("summary",null,"本文内容"),e("nav",{class:"table-of-contents"},[e("ul")])],-1),c=[n];function o(l,r){return t(),s("div",null,c)}const d=_(a,[["render",o],["__file","真正理解接口和抽象类.html.vue"]]);export{d as default};
