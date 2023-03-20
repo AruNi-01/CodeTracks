@@ -41,6 +41,7 @@ timeline: false
 - small-spring：[第03章：实现含构造函数的类实例化策略](../studynotes/framework/small-spring/ioc/第03章：实现含构造函数的类实例化策略.md)
 - small-spring：[第04章：注入属性和依赖对象](../studynotes/framework/small-spring/ioc/第04章：注入属性和依赖对象.md)
 - small-spring：[第05章：资源加载器解析文件注册对象](../studynotes/framework/small-spring/ioc/第05章：资源加载器解析文件注册对象.md)
+- small-spring：[第06章：实现应用上下文](../studynotes/framework/small-spring/ioc/第06章：实现应用上下文.md)
 
 
 **《设计模式》**：
