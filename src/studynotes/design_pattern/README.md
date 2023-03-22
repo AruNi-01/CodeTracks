@@ -39,6 +39,7 @@ timeline: false
 - [真正理解接口和抽象类](mind/oop/真正理解接口和抽象类.md)
 - [理论：传统 MVC vs DDD](mind/oop/理论：传统%20MVC%20vs%20DDD.md)
 - [实战：传统 MVC vs DDD](mind/oop/实战：传统%20MVC%20vs%20DDD.md)
+- [面向对象开发实战](mind/oop/面向对象开发实战.md)
 
 :::
 
