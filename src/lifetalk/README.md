@@ -35,6 +35,7 @@ timeline: false
 - [日常实习 - 图灵深视](interview/internship/日常实习-图灵深视.md)
 - [日常实习 - 优地网络](interview/internship/日常实习-优地网络.md)
 - [日常实习 - 亚信科技](interview/internship/日常实习-亚信科技.md)
+- [日常实习 - 合力亿捷](interview/internship/日常实习-合力亿捷.md)
 
 
 <FontIcon icon="recruit"/> 秋招：
