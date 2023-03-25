@@ -44,6 +44,7 @@ timeline: false
 :::
 
 ::: note 设计原则
+- [常见设计原则](mind/design_principle/常见设计原则.md)
 
 :::
 
