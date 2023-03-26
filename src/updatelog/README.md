@@ -43,6 +43,7 @@ timeline: false
 - small-spring：[第05章：资源加载器解析文件注册对象](../studynotes/framework/small-spring/ioc/第05章：资源加载器解析文件注册对象.md)
 - small-spring：[第06章：实现应用上下文](../studynotes/framework/small-spring/ioc/第06章：实现应用上下文.md)
 - small-spring：[第07章：初始化和销毁方法](../studynotes/framework/small-spring/ioc/第07章：初始化和销毁方法.md)
+- small-spring：[第08章：Aware 感知容器对象](../studynotes/framework/small-spring/ioc/第08章：Aware%20感知容器对象.md)
 
 
 **《设计模式》**：
