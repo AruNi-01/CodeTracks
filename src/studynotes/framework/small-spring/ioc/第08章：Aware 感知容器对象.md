@@ -236,6 +236,10 @@ Process finished with exit code 0
 
 可以看到，我们的 UserService 类已经可以从 Spring 框架中获取到容器对象了。
 
+到目前位置，该 Spring 框架的 Bean 生命周期已经趋于完整，如下图所示：
+
+![](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303281821704.png)
+
 ## 4. 流程
 
 ![](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303261332648.png)
