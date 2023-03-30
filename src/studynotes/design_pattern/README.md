@@ -45,7 +45,8 @@ timeline: false
 
 ::: note 设计原则
 - [常见设计原则](mind/design_principle/常见设计原则.md)
-- [常见设计原则](mind/design_principle/设计原则补充.md)
+- [设计原则补充](mind/design_principle/设计原则补充.md)
+
 
 :::
 
@@ -55,6 +56,9 @@ timeline: false
 
 ## 设计模式与范式
 ::: note 创建型
+- [单例模式](pattern/create_type/单例模式.md)
+
+
 :::
 
 ::: note 结构型

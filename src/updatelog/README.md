@@ -57,6 +57,7 @@ timeline: false
 - 设计原则与思想：[面向对象开发实战](../studynotes/design_pattern/mind/oop/面向对象开发实战.md)
 - 设计原则与思想：[常见设计原则](../studynotes/design_pattern/mind/design_principle/常见设计原则.md)
 - 设计原则与思想：[设计原则补充](../studynotes/design_pattern/mind/design_principle/设计原则补充.md)
+- 设计模式与范式：[单例模式](../studynotes/design_pattern/pattern/create_type/单例模式.md)
 
 
 :::
