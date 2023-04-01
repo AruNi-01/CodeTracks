@@ -17,6 +17,18 @@ timeline: false
 ---
 
 
+## 2023 年 4 月
+::: tip 新增文章
+
+
+
+**《设计模式》**：
+- 设计模式与范式：[工厂模式（上）：理解工厂模式](../studynotes/design_pattern/pattern/create_type/工厂模式（上）：理解工厂模式.md)
+
+
+
+:::
+
 ## 2023 年 3 月
 ::: tip 新增文章
 

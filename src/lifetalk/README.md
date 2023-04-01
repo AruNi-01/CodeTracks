@@ -36,6 +36,10 @@ timeline: false
 - [日常实习 - 优地网络](interview/internship/日常实习-优地网络.md)
 - [日常实习 - 亚信科技](interview/internship/日常实习-亚信科技.md)
 - [日常实习 - 合力亿捷](interview/internship/日常实习-合力亿捷.md)
+- [日常实习 - 七牛云](interview/internship/日常实习-七牛云.md)
+- [暑期实习 - 腾讯云智](interview/internship/暑期实习-腾讯云智.md)
+- [日常实习 - 比心](interview/internship/日常实习-比心.md)
+- [日常实习 - 星尘数据](interview/internship/日常实习-星尘数据.md)
 
 
 <FontIcon icon="recruit"/> 秋招：

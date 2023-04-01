@@ -27,6 +27,8 @@ timeline: false
 
 ::: right
 ——项目来源：小傅哥《手写 Spring 渐进式源码实践》
+
+——文章流程图来源：[liuc](https://blog.csdn.net/qq_40553401)
 :::
 
 ## 容器篇：IoC
