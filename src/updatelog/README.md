@@ -57,6 +57,7 @@ timeline: false
 - small-spring：[第07章：初始化和销毁方法](../studynotes/framework/small-spring/ioc/第07章：初始化和销毁方法.md)
 - small-spring：[第08章：Aware 感知容器对象](../studynotes/framework/small-spring/ioc/第08章：Aware%20感知容器对象.md)
 - small-spring：[第09章：对象作用域和 FactoryBean](../studynotes/framework/small-spring/ioc/第09章：对象作用域和%20FactoryBean.md)
+- small-spring：[第10章：容器事件和事件监听器](../studynotes/framework/small-spring/ioc/第10章：容器事件和事件监听器.md)
 
 
 **《设计模式》**：
