@@ -57,7 +57,8 @@ timeline: false
 ## 设计模式与范式
 ::: note 创建型
 - [单例模式](pattern/create_type/单例模式.md)
-- [工厂模式（上）：理解工厂模式](pattern/create_type/工厂模式（上）：理解工厂模式.md)
+- [工厂模式](pattern/create_type/工厂模式.md)
+- [建造者模式](pattern/create_type/建造者模式.md)
 
 
 :::

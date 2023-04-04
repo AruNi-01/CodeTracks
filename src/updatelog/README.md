@@ -23,7 +23,8 @@ timeline: false
 
 
 **《设计模式》**：
-- 设计模式与范式：[工厂模式（上）：理解工厂模式](../studynotes/design_pattern/pattern/create_type/工厂模式（上）：理解工厂模式.md)
+- 设计模式与范式：[工厂模式](../studynotes/design_pattern/pattern/create_type/工厂模式.md)
+- 设计模式与范式：[建造者模式](../studynotes/design_pattern/pattern/create_type/建造者模式.md)
 
 
 
