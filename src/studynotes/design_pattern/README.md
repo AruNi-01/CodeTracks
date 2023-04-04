@@ -59,7 +59,7 @@ timeline: false
 - [单例模式](pattern/create_type/单例模式.md)
 - [工厂模式](pattern/create_type/工厂模式.md)
 - [建造者模式](pattern/create_type/建造者模式.md)
-
+- [原型模式](pattern/create_type/原型模式.md)
 
 :::
 
