@@ -33,6 +33,12 @@ timeline: false
 
 :::
 
+::: info 完善文章
+**《Java》**：
+- Java 基础：[String 类](../studynotes/java/javase/String类.md)
+
+:::
+
 ## 2023 年 3 月
 ::: tip 新增文章
 

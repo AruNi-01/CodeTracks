@@ -250,9 +250,39 @@ StringBuilder 型变量 sb1 和 sb2 分别指向了堆内的字面量 "aaa" 和 
 
 还有一个原因是 **String 会保存在字符串常量池中**，这样在大量使用字符串的情况下，可以 **节省内存空间和提高效率**。但之所以能实现这个特性，String 的不可变性是最基本的一个必要条件。要是 **内存里字符串内容能改来改去，这么做就完全没有意义了**。
 
+此外，String 类中还有一个 `hash` 变量，如下所示：
 
+```java
+public final class String
+    implements java.io.Serializable, Comparable<String>, CharSequence {
+    // ......
 
-顺便提一下，像基本数据类型的包装类也是使用 `final` 修饰的，而且保存值的变量 value 也是使用 `final` 修饰，所以也是不可变类。
+    /** Cache the hash code for the string */
+    private int hash; // Default to 0
+    
+    // ......
+}
+```
+
+从源码种的注释就能知道，该变量是 **给 String 类型变量的 hashcode 值做缓存**，这样下次需要获取该 String 变量的 hashcode 值时，就不用再通过哈希运算了。
+
+顺便提一下，像基本数据类型的包装类也是使用 `final` 修饰的，而且保存值的变量 value 也是使用 `final` 修饰，所以也是不可变类。因为 Java 也为包装类型提供了缓存，例如 Integer 的缓存范围在 -128 至 127 之间，因为这个范围的数字是经常使用的。
+
+> 不过需要注意的是，该缓存只适用于自动装箱时使用，当用构造函数时，不会使用缓存。
+>
+> ```java
+> Integer i1 = 10;
+> Integer i2 = 10;
+> System.out.println(i1 == i2);	// true（i2 直接指向缓存的数据）
+> 
+> Integer i1 = 1000;
+> Integer i2 = 1000;
+> System.out.println(i1 == i2);	// false（超过了缓存范围）
+> 
+> Integer i1 = new Integer(10);
+> Integer i2 = new Integer(10);
+> System.out.println(i1 == i2);	// false（只有自动装箱时才会用到缓存）
+> ```
 
 ## 3. String 常见问题
 
@@ -452,7 +482,9 @@ public static void main(String[] args) throws InterruptedException {
 
 ### 4.3 intern() 方法
 
-调用字符串对象的 `intern()` 方法，主动将字符串对象放入到串池中：
+字符串常量池主要用于存储在 **编译期** 生成的字符串对象，而如果 **想要在运行期将字符串对象加入到串池中，则可以使用 `intern()` 方法**。
+
+调用字符串对象的 `intern()` 方法，**主动** 将字符串对象放入到串池中：
 
 - JDK1.8：将这个字符串对象尝试放入串池，**如果有则并不会放入**，如果没有则将该字符串放入串池， **最后把串池中的对象的引用返回**；
 - JDK1.6：将这个字符串对象尝试放入串池，**如果有则并不会放入**，如果没有会把 **此对象复制一份**， **将复制的新对象放入串池**， 原来的对象还是在堆中，**最后把串池中的对象返回**；
@@ -461,7 +493,7 @@ public static void main(String[] args) throws InterruptedException {
 
 下面分别在 JDK 1.8 和 JDK 1.6 环境中来举例子，彻底搞懂 `intern()` 方法。
 
-#### JDK 1.8 环境
+#### **JDK 1.8 环境**
 
 在 JDK 1.8 环境下：
 
@@ -530,7 +562,7 @@ public class Main {
 
 ![image-20221219005635419](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202212190135312.png)
 
-#### JDK 1.6 环境
+#### **JDK 1.6 环境**
 
 在 JDK 1.6 环境下，此时无论调用 `intern()` 方法成功与否，串池中的字符串对象和堆内存中的字符串对象 **都不是同一个对象**，因为串池在方法区，不在堆区内。
 
@@ -593,6 +625,63 @@ public class Main {
 
 ![image-20221219010152676](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202212190135770.png)
 
+#### **intern() 使用场景**
+
+我们就使用 JDK 1.8 来讲解了，`intern()` 有两个作用：
+
+- 将字符串对象放入串池（若没有）；
+- 返回对象在串池中的引用。
+
+我们知道，在编译期就能确定的字符串，则会添加进串池中，但是如果需要在运行期添加，则需要使用 `intern()`。所以就意味着不能乱使用该方法。
+
+例如，像 `String s = new String("hello").intern();` 这样使用该方法时，其实 `intern()` 是多余的，因为在编译期字符串 `hello` 就已经确定好了，因此会被加入到串池中，无需 `intern()` 方法将其放入。
+
+再比如，像 `String s = "hello" + "world";`，由于编译期的优化，会将此优化为字符串 `helloworld`，所以串池中只会存在 `helloworld`，而不存在 `hello` 和 `world`。
+
+再比如：
+
+```java
+String s1 = "hello";
+String s2 = "world";
+String s3 = s1 + s2;
+```
+
+- 此时就不存在优化了，`hello` 和 `world` 存在串池中，而 `helloworld` 不存在。所以在有需要时得使用 `intern()` 方法将其放入串池。
+
+通过上面的例子，可以得出 `intern()` 的使用场景主要是 **得到的字符串在编译期间无法确定，而是在运行期间才能确定的，则需要使用 `intern()` 方法将其放入串池中**。
+
+比如下面的例子，我们需要创建 MAX 个字符串，存入 arr 数组中：
+
+```java
+static final int MAX = 1000 * 10000;
+static final String[] arr = new String[MAX];
+
+public static void main(String[] args) throws Exception {
+    Integer[] DB_DATA = new Integer[10];
+    Random random = new Random(10 * 10000);
+    for (int i = 0; i < DB_DATA.length; i++) {
+        DB_DATA[i] = random.nextInt();
+    }
+    long t = System.currentTimeMillis();
+    for (int i = 0; i < MAX; i++) {
+        //arr[i] = new String(String.valueOf(DB_DATA[i % DB_DATA.length]));
+         arr[i] = new String(String.valueOf(DB_DATA[i % DB_DATA.length])).intern();
+    }
+
+    System.out.println((System.currentTimeMillis() - t) + "ms");
+    System.gc();
+}
+```
+
+我们使用一个长度为 10 的数组 DB_DATA 来为字符串数组 arr 填充数据，所以其实不同的字符串就 10 个，但是字符串数组长度有 10000000：
+
+- 不使用 `intern()` 时，由于这些字符串都是 **在运行时才能确定的**，所以会生成 1000w 个字符串；
+- 使用 `intern()` 后，前 10 此循环就会把这十个字符串都放入串池，后续的字符串都是直接引用串池中的即可，因此就生成了 10 个字符串。
+
+因此，**使用 `intern()` 节约了非常大的空间**，不过消耗的时间也会稍微长一点，因为每次都是用了 `new String` 后，然后又进行 `intern()` 操作的消耗时间。但是相比于节约出来的大量空间，这点耗时也是不亏的。
+
 ## 5. 参考文章
 
 - [Java Guide](https://javaguide.cn/)
+- [深入解析String#intern](https://tech.meituan.com/2014/03/06/in-depth-understanding-string-intern.html)
+
