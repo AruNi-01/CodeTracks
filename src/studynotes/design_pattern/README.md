@@ -64,6 +64,7 @@ timeline: false
 :::
 
 ::: note 结构型
+- [代理模式](pattern/structure_type/代理模式.md)
 
 :::
 

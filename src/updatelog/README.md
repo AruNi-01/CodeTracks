@@ -26,6 +26,7 @@ timeline: false
 - 设计模式与范式：[工厂模式](../studynotes/design_pattern/pattern/create_type/工厂模式.md)
 - 设计模式与范式：[建造者模式](../studynotes/design_pattern/pattern/create_type/建造者模式.md)
 - 设计模式与范式：[原型模式](../studynotes/design_pattern/pattern/create_type/原型模式.md)
+- 设计模式与范式：[代理模式](../studynotes/design_pattern/pattern/structure_type/代理模式.md)
 
 
 
