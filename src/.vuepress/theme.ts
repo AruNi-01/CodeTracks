@@ -135,22 +135,22 @@ export default hopeTheme({
         // addThis: "ra-640435c5c88b015c",
 
         // 通知组件
-        // notice: [
-        //   {
-        //     path: "/",
-        //     title: "Notice",
-        //     content: "喜欢此网站？",
-        //     actions: [
-        //       {
-        //         text: "立即搭建",
-        //         link: "https://theme-hope.vuejs.press/",
-        //         type: "primary",
-        //       },
-        //       { text: "取消" },
-        //     ],
-        //     fullscreen: false,
-        //   },
-        // ],
+        notice: [
+          {
+            path: "/",
+            title: "GoodLuck~",
+            content: "✨ 是需要查看实习面经吗？",
+            actions: [
+              {
+                text: "立即查看",
+                link: "/lifetalk/",
+                type: "primary",
+              },
+              { text: "取消" },
+            ],
+            fullscreen: false,
+          },
+        ],
       },
     },
 
