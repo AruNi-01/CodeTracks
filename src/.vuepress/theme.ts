@@ -138,8 +138,8 @@ export default hopeTheme({
         notice: [
           {
             path: "/",
-            title: "GoodLuck~",
-            content: "✨ 是需要查看实习面经吗？",
+            title: "GoodLuck ~",
+            content: "✨ 实习面经快速导航 ✨",
             actions: [
               {
                 text: "立即查看",
