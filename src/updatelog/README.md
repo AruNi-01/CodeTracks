@@ -29,6 +29,7 @@ timeline: false
 - 设计模式与范式：[代理模式](../studynotes/design_pattern/pattern/structure_type/代理模式.md)
 - 设计模式与范式：[桥接模式](../studynotes/design_pattern/pattern/structure_type/桥接模式.md)
 - 设计模式与范式：[装饰器模式](../studynotes/design_pattern/pattern/structure_type/装饰器模式.md)
+- 设计模式与范式：[适配器模式](../studynotes/design_pattern/pattern/structure_type/适配器模式.md)
 
 
 :::
