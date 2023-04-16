@@ -31,6 +31,7 @@ timeline: false
 - 设计模式与范式：[装饰器模式](../studynotes/design_pattern/pattern/structure_type/装饰器模式.md)
 - 设计模式与范式：[适配器模式](../studynotes/design_pattern/pattern/structure_type/适配器模式.md)
 - 设计模式与范式：[门面模式](../studynotes/design_pattern/pattern/structure_type/门面模式.md)
+- 设计模式与范式：[组合模式](../studynotes/design_pattern/pattern/structure_type/组合模式.md)
 
 
 :::
