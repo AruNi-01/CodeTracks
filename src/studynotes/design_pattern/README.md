@@ -68,6 +68,7 @@ timeline: false
 - [桥接模式](pattern/structure_type/桥接模式.md)
 - [装饰器模式](pattern/structure_type/装饰器模式.md)
 - [适配器模式](pattern/structure_type/适配器模式.md)
+- [门面模式](pattern/structure_type/门面模式.md)
 
 :::
 
