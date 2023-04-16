@@ -4,8 +4,9 @@ import { nprogressPlugin } from '@vuepress/plugin-nprogress';
 import { commentPlugin } from "vuepress-plugin-comment2";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { getDirname, path } from "@vuepress/utils";
 
-
+const __dirname = getDirname(import.meta.url);
 
 //自定义用户配置
 export default defineUserConfig({
@@ -24,6 +25,13 @@ export default defineUserConfig({
   },
   // 主题设置
   theme,
+
+  alias: {
+    "@MyLink": path.resolve(__dirname, "./components/Mylink.vue"),
+    "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),
+    "@Design": path.resolve(__dirname, "./data/design.ts"),
+    "@Api": path.resolve(__dirname, "./data/api.ts"),
+  },
 
   plugins: [
     // 谷歌统计

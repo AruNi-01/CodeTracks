@@ -16,7 +16,15 @@ article: false
 timeline: false
 ---
 
-## 友链
+## 🛠️ Tools
+
+<MyCoverLink type="tool"/>
+<script setup lang="ts">
+import MyCoverLink from "@MyCoverLink";
+</script>
+
+
+## :people_holding_hands: Friends
 
 <SiteInfo
   name="Mr.Hope’s Blog"
