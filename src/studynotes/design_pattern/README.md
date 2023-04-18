@@ -70,6 +70,7 @@ timeline: false
 - [适配器模式](pattern/structure_type/适配器模式.md)
 - [门面模式](pattern/structure_type/门面模式.md)
 - [组合模式](pattern/structure_type/组合模式.md)
+- [享元模式](pattern/structure_type/享元模式.md)
 
 :::
 
