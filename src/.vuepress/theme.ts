@@ -135,22 +135,22 @@ export default hopeTheme({
         // addThis: "ra-640435c5c88b015c",
 
         // 通知组件
-        notice: [
-          {
-            path: "/",
-            title: "GoodLuck ~",
-            content: "✨ 实习面经快速导航 ✨",
-            actions: [
-              {
-                text: "立即查看",
-                link: "/lifetalk/",
-                type: "primary",
-              },
-              { text: "取消" },
-            ],
-            fullscreen: false,
-          },
-        ],
+        // notice: [
+        //   {
+        //     path: "/",
+        //     title: "GoodLuck ~",
+        //     content: "✨ 实习面经快速导航 ✨",
+        //     actions: [
+        //       {
+        //         text: "立即查看",
+        //         link: "/lifetalk/",
+        //         type: "primary",
+        //       },
+        //       { text: "取消" },
+        //     ],
+        //     fullscreen: false,
+        //   },
+        // ],
       },
     },
 
