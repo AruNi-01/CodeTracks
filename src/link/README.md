@@ -16,22 +16,30 @@ article: false
 timeline: false
 ---
 
+
+## :people_holding_hands: Friends
+
+<SiteInfo
+  name="GoIruri"
+  desc="某不知名黑客（tags：完美主义、理想主义、浪漫主义、日系）"
+  url="https://goiruri.github.io/"
+  logo="https://goiruri.github.io/img/avatar.jpg"
+  preview="/img/friend_link/goiruri_blog.png"
+/>
+
+<SiteInfo
+  name="某举T-T"
+  desc="一名 Gopher (但并不局限于 Go)，steam、主机玩家，分享项目，技术，生活，观点~"
+  url="https://space.bilibili.com/74568474"
+  logo="/img/friend_link/mouju_logo.jpg"
+  preview="/img/friend_link/mouju_bili.png"
+/>
+
+
 ## 🛠️ Tools
 
 <MyCoverLink type="tool"/>
 <script setup lang="ts">
 import MyCoverLink from "@MyCoverLink";
 </script>
-
-
-## :people_holding_hands: Friends
-
-<SiteInfo
-  name="Mr.Hope’s Blog"
-  desc="Where there is light, there is hope"
-  url="https://mrhope.site"
-  logo="https://mrhope.site/logo.svg"
-  repo="https://github.com/Mister-Hope/Mister-Hope.github.io"
-  preview="https://theme-hope.vuejs.press/assets/image/mrhope.jpg"
-/>
 

@@ -18,7 +18,7 @@ export default hopeTheme({
 
   // 使用官方提供的图标库-也可以构建自己的图标库
   iconAssets: "//at.alicdn.com/t/c/font_3869136_vepwlcne3pm.css",
-  iconPrefix: "icon-",
+  iconPrefix: "iconfont icon-",
 
   // 网站图标
   logo: "/logo.png",
@@ -34,9 +34,9 @@ export default hopeTheme({
 
   // 导航栏布局
   navbarLayout: {
-    left: ["Brand"],
+    start: ["Brand"],
     center: ["Links"],
-    right: ["Language", "Repo", "Outlook", "Search"],
+    end: ["Language", "Repo", "Outlook", "Search"],
   },
 
   hotReload: true,
@@ -110,6 +110,15 @@ export default hopeTheme({
 
     pwa: true,
 
+    comment: {
+      // Giscus 评论
+      provider: "Giscus",
+      repo: "AruNi-01/docs",
+      repoId: "R_kgDOIzaunw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOIzaun84CTx1G",
+      lazyLoading: true,
+    },
 
     components: {
       // 在MD文件中启用的组件
@@ -176,7 +185,7 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageSize: true,
+      imgSize: true,
       include: true,
       katex: true,
       // lazyLoad: true,

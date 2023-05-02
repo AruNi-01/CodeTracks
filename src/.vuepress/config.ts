@@ -92,18 +92,18 @@ export default defineUserConfig({
     }),
 
     // 评论插件
-    commentPlugin({
-      // Giscus 评论
-      provider: "Giscus",
-      repo: "AruNi-01/docs",
-      repoId: "R_kgDOIzaunw",
-      category: "Announcements",
-      categoryId: "DIC_kwDOIzaun84CTx1G",
-      lazyLoading: true,
-    }),
+    // commentPlugin({
+    //   // Giscus 评论
+    //   provider: "Giscus",
+    //   repo: "AruNi-01/docs",
+    //   repoId: "R_kgDOIzaunw",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOIzaun84CTx1G",
+    //   lazyLoading: true,
+    // }),
 
     // 加载进度条
-    nprogressPlugin(),
+    // nprogressPlugin(),
   ],
 
   shouldPrefetch: false,

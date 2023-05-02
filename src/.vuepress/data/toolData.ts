@@ -33,7 +33,7 @@ export const tools: LinkData[] = [
   {
     name: "Typora",
     desc: "专注 MD 编辑/阅读",
-    ico: "https://typora.io/img/favicon-64.png",
+    ico: "https://typoraio.cn/img/favicon-64.png",
     link: "https://typoraio.cn/",
   },
   {
