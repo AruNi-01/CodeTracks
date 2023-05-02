@@ -23,8 +23,8 @@ timeline: false
   name="GoIruri"
   desc="某不知名黑客（tags：完美主义、理想主义、浪漫主义、日系）"
   url="https://goiruri.github.io/"
-  logo="/img/friend_link/goiruri_logo.png"
-  preview="/docs/img/friend_link/goiruri_blog.png"
+  logo="/docs/img/friend_link/goiruri_logo.png"
+  preview="/img/friend_link/goiruri_blog.png"
 />
 
 <SiteInfo
