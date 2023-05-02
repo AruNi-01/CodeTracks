@@ -23,7 +23,7 @@ timeline: false
   name="GoIruri"
   desc="某不知名黑客（tags：完美主义、理想主义、浪漫主义、日系）"
   url="https://goiruri.github.io/"
-  logo="https://goiruri.github.io/img/avatar.jpg"
+  logo="/img/friend_link/goiruri_logo.png"
   preview="/img/friend_link/goiruri_blog.png"
 />
 
@@ -31,7 +31,7 @@ timeline: false
   name="某举T-T"
   desc="一名 Gopher (但并不局限于 Go)，steam、主机玩家，分享项目，技术，生活，观点~"
   url="https://space.bilibili.com/74568474"
-  logo="/img/friend_link/mouju_logo.jpg"
+  logo="/img/friend_link/mouju_logo.png"
   preview="/img/friend_link/mouju_bili.png"
 />
 
