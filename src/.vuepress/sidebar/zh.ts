@@ -133,12 +133,12 @@ export const zhSidebar = sidebar({
   //     ],
   //   },
   //
-  //   // ---------------- 算法 ----------------
+  //   // ---------------- 分布式技术 ----------------
   //   {
   //     text: "LeetCode 算法",
   //     icon: "structure",
   //     collapsible: true,
-  //     prefix: "/codenotes/algo/",
+  //     prefix: "/codenotes/distributed/",
   //     children: [
   //
   //       // sort
@@ -146,7 +146,7 @@ export const zhSidebar = sidebar({
   //         text: "sort",
   //         icon: "structure",
   //         collapsible: true,
-  //         prefix: "/studynotes/algo/sort/",
+  //         prefix: "/studynotes/distributed/sort/",
   //         children: [
   //           {
   //             text: "介绍",
@@ -161,7 +161,7 @@ export const zhSidebar = sidebar({
   //         text: "剑指 Offer",
   //         icon: "structure",
   //         collapsible: true,
-  //         prefix: "/studynotes/algo/jzoffer/",
+  //         prefix: "/studynotes/distributed/jzoffer/",
   //         children: [
   //           {
   //             text: "剑指 Offer01. 最长回文子串",

@@ -15,11 +15,11 @@ actions:
 features:
   - title: Java
     icon: java
-    details: Java 基础、集合、并发编程等
+    details: Java 基础、集合、并发编程
     link: /studynotes/java/
   - title: 数据库
     icon: database
-    details: 数据库知识、MySQL、Redis 等
+    details: 数据库知识、MySQL、Redis
     link: /studynotes/database/
   - title: 计算机基础
     icon: computer
@@ -29,10 +29,10 @@ features:
     icon: framework
     details: 后端常用框架
     link: /studynotes/framework/
-  - title: 算法题解
-    icon: a-structure4-fill
-    details: LeetCode 算法题解
-    link: /studynotes/algo/
+  - title: 分布式技术
+    icon: fenbushi
+    details: 分布式技术基础及原理
+    link: /studynotes/distributed/
   - title: 中间件
     icon: middleware
     details: 后端常用中间件

@@ -17,6 +17,17 @@ timeline: false
 ---
 
 
+## 2023 年 6 月
+::: tip 新增文章
+
+
+**《分布式技术》**：
+- 基础：[什么是分布式](../studynotes/distributed/basis/什么是分布式.md)
+- 基础：[分布式系统的指标](../studynotes/distributed/basis/分布式系统的指标.md)
+
+:::
+
+
 ## 2023 年 4 月
 ::: tip 新增文章
 
