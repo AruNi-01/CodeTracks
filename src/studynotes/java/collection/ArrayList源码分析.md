@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: ArrayList 源码分析
-date: 2023-2-8
+date: 2023-02-08
 order: 2
 # 当前页面图标
 icon: write

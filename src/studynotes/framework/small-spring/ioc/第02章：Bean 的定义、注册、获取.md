@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: 第02章：Bean 的定义、注册、获取
-date: 2023-3-9
+date: 2023-03-09
 order: 2
 icon: write
 

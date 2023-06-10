@@ -24,7 +24,8 @@ timeline: false
 **《分布式技术》**：
 - 基础：[什么是分布式](../studynotes/distributed/basis/什么是分布式.md)
 - 基础：[分布式系统的指标](../studynotes/distributed/basis/分布式系统的指标.md)
-- 分布式协调与同步：[分布式互斥](../studynotes/distributed/coord_and_sync/分布式互斥.md)
+- 分布式协调与同步：[分布式互斥：一山不容二虎](../studynotes/distributed/coord_and_sync/分布式互斥.md)
+- 分布式协调与同步：[分布式选举：国不可一日无君](../studynotes/distributed/coord_and_sync/分布式选举.md)
 :::
 
 
@@ -111,7 +112,7 @@ timeline: false
 
 **《数据库》**：
 - MySQL：[MySQL 常见存储引擎](../studynotes/database/mysql/basis/MySQL常见存储引擎.md)
-- MySQL：[select 执行流程](../studynotes/database/mysql/basia/select执行流程.md)
+- MySQL：[select 执行流程](../studynotes/database/mysql/basis/select执行流程.md)
 - MySQL：[执行计划之 explain](../studynotes/database/mysql/index/执行计划之explain.md)
 - MySQL：[索引覆盖和索引条件下推](../studynotes/database/mysql/index/索引覆盖和索引条件下推.md)
 - MySQL：[联合索引与最左前缀匹配](../studynotes/database/mysql/index/联合索引与最左前缀匹配.md)
@@ -132,5 +133,5 @@ timeline: false
 - 并发编程：[volatile 详解](../studynotes/java/concurrency/volatile详解.md)
 
 **《计算机基础》**：
-- 网络：[什么是 HTTP](../studynotes/cs/network/http/什么是HTTP.md)
+- 网络：[HTTP 入门](../studynotes/cs/network/http/HTTP入门.md)
 :::

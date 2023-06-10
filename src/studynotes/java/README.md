@@ -1,6 +1,6 @@
 ---
 title: Java
-date: 2023-1-20
+date: 2023-01-20
 
 icon: java
 index: false

@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: ThreadLocal 详解
-date: 2022-12-1
+date: 2022-12-01
 order: 3
 # 当前页面图标
 icon: write

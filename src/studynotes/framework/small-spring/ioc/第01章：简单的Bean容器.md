@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: 第01章：简单的 Bean 容器
-date: 2023-3-8
+date: 2023-03-08
 order: 1
 icon: write
 

@@ -1,6 +1,6 @@
 ---
 title: 计算机基础
-date: 2023-1-23
+date: 2023-01-23
 icon: computer
 index: false
 dir:

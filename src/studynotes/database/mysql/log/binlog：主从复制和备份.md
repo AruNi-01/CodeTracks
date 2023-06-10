@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: binlog：主从复制和备份
-date: 2023-3-11
+date: 2023-03-11
 order: 2
 icon: write
 

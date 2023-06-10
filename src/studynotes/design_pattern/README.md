@@ -1,6 +1,6 @@
 ---
 title: 设计模式
-date: 2023-1-23
+date: 2023-01-23
 
 icon: design-pattern
 index: false

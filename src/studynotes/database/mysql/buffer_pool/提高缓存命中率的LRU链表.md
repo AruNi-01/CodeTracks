@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: 提高缓存命中率的 LRU 链表
-date: 2023-3-6
+date: 2023-03-06
 order: 2
 icon: write
 

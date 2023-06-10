@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: 键入 URL 到页面显示全过程
-date: 2023-3-3
+date: 2023-03-03
 order: 2
 icon: write
 

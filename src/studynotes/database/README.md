@@ -1,6 +1,6 @@
 ---
 title: 数据库
-date: 2023-1-23
+date: 2023-01-23
 icon: database
 index: false
 dir:

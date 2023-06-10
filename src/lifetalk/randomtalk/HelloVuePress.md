@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: Hello VuePress
-date: 2023-1-19
+date: 2023-01-19
 order: 1
 icon: write
 

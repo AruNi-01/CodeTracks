@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: 第09章：对象作用域和 FactoryBean
-date: 2023-3-28
+date: 2023-03-28
 order: 9
 icon: write
 

@@ -35,5 +35,6 @@ timeline: false
 - [分布式系统的指标](basis/分布式系统的指标.md)
 
 ## 分布式协调与同步
-- [分布式互斥](coord_and_sync/分布式互斥.md)
+- [分布式互斥：一山不容二虎](coord_and_sync/分布式互斥.md)
+- [分布式选举：国不可一日无君](coord_and_sync/分布式选举.md)
 

@@ -1,7 +1,7 @@
 ---
 # 当前页面内容标题
 title: AQS 入门：简单了解
-date: 2023-2-27
+date: 2023-02-27
 order: 4
 # 当前页面图标
 icon: write
