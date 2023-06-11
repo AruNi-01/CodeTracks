@@ -26,6 +26,12 @@ timeline: false
 - 基础：[分布式系统的指标](../studynotes/distributed/basis/分布式系统的指标.md)
 - 分布式协调与同步：[分布式互斥：一山不容二虎](../studynotes/distributed/coord_and_sync/分布式互斥.md)
 - 分布式协调与同步：[分布式选举：国不可一日无君](../studynotes/distributed/coord_and_sync/分布式选举.md)
+
+**《微服务架构》**：
+- 基础：[什么是微服务](../studynotes/microservice/basis/什么是微服务.md)
+
+
+
 :::
 
 

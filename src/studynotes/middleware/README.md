@@ -4,7 +4,7 @@ date: 2023-01-23
 icon: middleware
 index: false
 dir:
-  order: 6
+  order: 7
 
 # 分类
 category:

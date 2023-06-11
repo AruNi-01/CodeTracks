@@ -33,6 +33,10 @@ features:
     icon: fenbushi
     details: 分布式技术基础及原理
     link: /studynotes/distributed/
+  - title: 微服务架构
+    icon: microservice
+    details: 微服务体系的基本原理和组成
+    link: /studynotes/microservice/
   - title: 中间件
     icon: middleware
     details: 后端常用中间件
