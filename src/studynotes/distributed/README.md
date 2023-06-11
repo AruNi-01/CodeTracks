@@ -1,5 +1,5 @@
 ---
-title: 分布式技术
+title: 分布式系统
 date: 2023-01-23
 icon: fenbushi
 index: false

@@ -21,7 +21,7 @@ timeline: false
 ::: tip 新增文章
 
 
-**《分布式技术》**：
+**《分布式系统》**：
 - 基础：[什么是分布式](../studynotes/distributed/basis/什么是分布式.md)
 - 基础：[分布式系统的指标](../studynotes/distributed/basis/分布式系统的指标.md)
 - 分布式协调与同步：[分布式互斥：一山不容二虎](../studynotes/distributed/coord_and_sync/分布式互斥.md)

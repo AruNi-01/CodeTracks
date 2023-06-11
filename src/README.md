@@ -29,7 +29,7 @@ features:
     icon: framework
     details: 后端常用框架
     link: /studynotes/framework/
-  - title: 分布式技术
+  - title: 分布式系统
     icon: fenbushi
     details: 分布式技术基础及原理
     link: /studynotes/distributed/
