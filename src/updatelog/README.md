@@ -31,6 +31,11 @@ timeline: false
 - 基础：[什么是微服务](../studynotes/microservice/basis/什么是微服务.md)
 
 
+:::
+
+::: info 完善文章
+**《设计模式》**：
+- 设计模式与范式：[装饰器模式](../studynotes/design_pattern/pattern/structure_type/装饰器模式.md)
 
 :::
 
