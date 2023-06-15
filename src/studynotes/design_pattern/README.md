@@ -75,6 +75,7 @@ timeline: false
 :::
 
 ::: note 行为型
+- [观察者模式（上）：理解观察者模式](pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
 
 :::
 

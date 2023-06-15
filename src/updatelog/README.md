@@ -31,6 +31,9 @@ timeline: false
 - 基础：[什么是微服务](../studynotes/microservice/basis/什么是微服务.md)
 
 
+**《设计模式》**：
+- 设计模式与范式：[观察者模式（上）：理解观察者模式](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
+
 :::
 
 ::: info 完善文章
