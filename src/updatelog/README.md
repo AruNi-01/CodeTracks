@@ -19,8 +19,6 @@ timeline: false
 
 ## 2023 年 6 月
 ::: tip 新增文章
-
-
 **《分布式系统》**：
 - 基础：[什么是分布式](../studynotes/distributed/basis/什么是分布式.md)
 - 基础：[分布式系统的指标](../studynotes/distributed/basis/分布式系统的指标.md)
@@ -29,12 +27,14 @@ timeline: false
 
 **《微服务架构》**：
 - 基础：[什么是微服务](../studynotes/microservice/basis/什么是微服务.md)
+- 基础：[服务如何拆分](../studynotes/microservice/basis/服务如何拆分.md)
 
 
 **《设计模式》**：
 - 设计模式与范式：[观察者模式（上）：理解观察者模式](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
 
 :::
+
 
 ::: info 完善文章
 **《设计模式》**：
@@ -45,9 +45,6 @@ timeline: false
 
 ## 2023 年 4 月
 ::: tip 新增文章
-
-
-
 **《设计模式》**：
 - 设计模式与范式：[工厂模式](../studynotes/design_pattern/pattern/create_type/工厂模式.md)
 - 设计模式与范式：[建造者模式](../studynotes/design_pattern/pattern/create_type/建造者模式.md)
@@ -60,7 +57,6 @@ timeline: false
 - 设计模式与范式：[组合模式](../studynotes/design_pattern/pattern/structure_type/组合模式.md)
 - 设计模式与范式：[享元模式](../studynotes/design_pattern/pattern/structure_type/享元模式.md)
 
-
 :::
 
 ::: info 完善文章
@@ -70,8 +66,8 @@ timeline: false
 :::
 
 ## 2023 年 3 月
-::: tip 新增文章
 
+::: tip 新增文章
 **《数据库》**：
 - MySQL：[了解 Buffer Pool](../studynotes/database/mysql/buffer_pool/了解BufferPool.md)
 - MySQL：[提高缓存命中率的 LRU 链表](../studynotes/database/mysql/buffer_pool/提高缓存命中率的LRU链表.md)
@@ -112,10 +108,10 @@ timeline: false
 - 设计原则与思想：[设计原则补充](../studynotes/design_pattern/mind/design_principle/设计原则补充.md)
 - 设计模式与范式：[单例模式](../studynotes/design_pattern/pattern/create_type/单例模式.md)
 
-
 :::
 
 ## 2023 年 2 月
+
 ::: tip 新增文章
 **《Java》**：
 - 集合：[集合入门](../studynotes/java/collection/集合入门.md)
@@ -137,7 +133,9 @@ timeline: false
 - 网络：[HTTPS 入门](../studynotes/cs/network/http/HTTPS入门.md)
 :::
 
+
 ## 2022 年 12 月
+
 ::: tip 新增文章
 **《Java》**：
 - Java 基础：[Object 类](../studynotes/java/javase/Object类.md)
@@ -148,4 +146,5 @@ timeline: false
 
 **《计算机基础》**：
 - 网络：[HTTP 入门](../studynotes/cs/network/http/HTTP入门.md)
+
 :::
