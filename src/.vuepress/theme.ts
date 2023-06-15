@@ -169,8 +169,8 @@ export default hopeTheme({
       showInMobile: true,
       // 代码复制成功提示消息的时间-ms
       duration: 1500,
-      // 纯净模式
-      pure: false,
+      // 华丽模式
+      fancy: true,
     },
 
     // MarkDown文件增强
