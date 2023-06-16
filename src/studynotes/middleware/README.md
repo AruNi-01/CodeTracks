@@ -22,3 +22,13 @@ article: false
 timeline: false
 ---
 
+::: tip 相关内容
+后端常用中间件，目前有 MQ 相关的内容！
+:::
+
+## 消息队列
+
+::: note 常见问题
+- [如何保证消息幂等](mq/common_question/如何保证消息幂等.md)
+
+:::

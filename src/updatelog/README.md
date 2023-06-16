@@ -33,6 +33,9 @@ timeline: false
 **《设计模式》**：
 - 设计模式与范式：[观察者模式（上）：理解观察者模式](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
 
+**《中间件》**：
+- 消息队列：[如何保证消息幂等](../studynotes/middleware/mq/common_question/如何保证消息幂等.md)
+
 :::
 
 
