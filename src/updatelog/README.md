@@ -28,6 +28,7 @@ timeline: false
 **《微服务架构》**：
 - 基础：[什么是微服务](../studynotes/microservice/basis/什么是微服务.md)
 - 基础：[服务如何拆分](../studynotes/microservice/basis/服务如何拆分.md)
+- 基础：[初探微服务架构](../studynotes/microservice/basis/初探微服务架构.md)
 
 
 **《设计模式》**：
