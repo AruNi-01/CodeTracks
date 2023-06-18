@@ -106,6 +106,12 @@ export default hopeTheme({
   },
 
   plugins: {
+    // 代码块主题
+    prismjs: {
+      // light: "one-dark"
+      
+    },
+
     blog: true,
 
     pwa: true,
@@ -170,7 +176,7 @@ export default hopeTheme({
       // 代码复制成功提示消息的时间-ms
       duration: 1500,
       // 华丽模式
-      fancy: true,
+      // fancy: true,
     },
 
     // MarkDown文件增强
@@ -178,6 +184,7 @@ export default hopeTheme({
       tasklist: true,
       align: true,
       attrs: true,
+      card: true,
       chart: true,
       codetabs: true,
       container: true,

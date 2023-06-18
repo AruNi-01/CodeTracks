@@ -22,8 +22,8 @@ timeline: false
 **《分布式系统》**：
 - 基础：[什么是分布式](../studynotes/distributed/basis/什么是分布式.md)
 - 基础：[分布式系统的指标](../studynotes/distributed/basis/分布式系统的指标.md)
-- 分布式协调与同步：[分布式互斥：一山不容二虎](../studynotes/distributed/coord_and_sync/分布式互斥.md)
-- 分布式协调与同步：[分布式选举：国不可一日无君](../studynotes/distributed/coord_and_sync/分布式选举.md)
+- 分布式协调与同步：[分布式互斥：一山不容二虎](../studynotes/distributed/coord_and_sync/分布式互斥：一山不容二虎.md)
+- 分布式协调与同步：[分布式选举：国不可一日无君](../studynotes/distributed/coord_and_sync/分布式选举：国不可一日无君.md)
 
 **《微服务架构》**：
 - 基础：[什么是微服务](../studynotes/microservice/basis/什么是微服务.md)
@@ -33,6 +33,7 @@ timeline: false
 
 **《设计模式》**：
 - 设计模式与范式：[观察者模式（上）：理解观察者模式](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
+- 设计模式与范式：[观察者模式（下）：实现一个 EventBus 框架](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（下）：实现一个EventBus框架.md)
 
 **《中间件》**：
 - 消息队列：[如何保证消息幂等](../studynotes/middleware/mq/common_question/如何保证消息幂等.md)
