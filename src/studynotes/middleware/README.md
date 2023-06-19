@@ -29,6 +29,7 @@ timeline: false
 ## 消息队列
 
 ::: note 常见问题
+- [MQ 常见问题合集](mq/common_question/MQ常见问题合集.md)
 - [如何保证消息幂等](mq/common_question/如何保证消息幂等.md)
 
 :::

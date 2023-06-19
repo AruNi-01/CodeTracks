@@ -36,6 +36,7 @@ timeline: false
 - 设计模式与范式：[观察者模式（下）：实现一个 EventBus 框架](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（下）：实现一个EventBus框架.md)
 
 **《中间件》**：
+- 消息队列：[MQ 常见问题合集](../studynotes/middleware/mq/common_question/MQ常见问题合集.md)
 - 消息队列：[如何保证消息幂等](../studynotes/middleware/mq/common_question/如何保证消息幂等.md)
 
 :::

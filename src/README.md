@@ -25,10 +25,10 @@ features:
     icon: computer
     details: 操作系统、网络相关
     link: /studynotes/cs/
-  - title: 框架
-    icon: framework
-    details: 后端常用框架
-    link: /studynotes/framework/
+  - title: 设计模式
+    icon: design-pattern
+    details: 设计模式与范式相关
+    link: /studynotes/design_pattern/
   - title: 分布式系统
     icon: fenbushi
     details: 分布式技术基础及原理
@@ -41,10 +41,10 @@ features:
     icon: middleware
     details: 后端常用中间件
     link: /studynotes/middleware/
-  - title: 设计模式
-    icon: design-pattern
-    details: 设计模式与范式相关
-    link: /studynotes/design_pattern/
+  - title: 框架
+    icon: framework
+    details: 后端常用框架
+    link: /studynotes/framework/
 
 copyright: false
 footer: Copyright © 2023 AruNi_Lu

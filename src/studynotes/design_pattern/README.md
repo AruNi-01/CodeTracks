@@ -5,7 +5,7 @@ date: 2023-01-23
 icon: design-pattern
 index: false
 dir:
-  order: 8
+  order: 4
 
 # 分类
 category:
