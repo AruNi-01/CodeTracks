@@ -38,6 +38,10 @@ timeline: true
 
 那么本篇文章将聚焦于异步非阻塞的方式，实现一个类似 Google Guava EventBus 的通用框架，对观察者模式进行封装，让其在项目中使用更简便。
 
+EventBus 项目地址：https://github.com/AruNi-01/DesignPattern/tree/main/dp/src/observer/eventbus
+
+Guava 地址：https://github.com/google/guava，直接下载 jar 包添加进自定义的目录，然后将该目录 Add as Library 即可使用，或者使用 Maven 亦可。
+
 :::
 
 ## 1. 异步非阻塞方式的简易实现
