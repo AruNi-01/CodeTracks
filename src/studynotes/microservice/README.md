@@ -35,6 +35,7 @@ timeline: false
 - [服务如何拆分](basis/服务如何拆分.md)
 - [初探微服务架构](basis/初探微服务架构.md)
 
-## 
+## 服务注册与发现
+- [什么是服务注册与发现](register_and_discover/什么是服务注册与发现.md)
 
 

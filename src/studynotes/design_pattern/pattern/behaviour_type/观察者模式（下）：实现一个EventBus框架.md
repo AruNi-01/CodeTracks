@@ -40,7 +40,7 @@ timeline: true
 
 EventBus 项目地址：https://github.com/AruNi-01/DesignPattern/tree/main/dp/src/observer/eventbus
 
-Guava 地址：https://github.com/google/guava，直接下载 jar 包添加进自定义的目录，然后将该目录 Add as Library 即可使用，或者使用 Maven 亦可。
+Guava 地址：https://github.com/google/guava ，直接下载 jar 包添加进自定义的目录，然后将该目录 Add as Library 即可使用，或者使用 Maven 亦可。
 
 :::
 
