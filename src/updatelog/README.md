@@ -32,6 +32,9 @@ timeline: false
 - 服务注册与发现：[什么是服务注册与发现](../studynotes/microservice/register_and_discover/什么是服务注册与发现.md)
 
 
+**《计算机基础》**：
+- 操作系统：[如何让程序跑的更快](../studynotes/cs/os/basis/如何让程序跑的更快.md)
+
 **《设计模式》**：
 - 设计模式与范式：[观察者模式（上）：理解观察者模式](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
 - 设计模式与范式：[观察者模式（下）：实现一个 EventBus 框架](../studynotes/design_pattern/pattern/behaviour_type/观察者模式（下）：实现一个EventBus框架.md)
