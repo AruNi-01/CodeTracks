@@ -9,14 +9,12 @@ const __dirname = getDirname(import.meta.url);
 
 //自定义用户配置
 export default defineUserConfig({
-    base: "/docs/",
+    base: "/",
     lang: "zh-CN",
     title: "AruNi's domain",
     description: "学习文档",
     shouldPrefetch: false,
     head: [],
-
-    dest: "public",
 
     // 主题设置
     theme: hopeTheme({
