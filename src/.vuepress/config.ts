@@ -85,7 +85,7 @@ export default defineUserConfig({
         editLinkPattern: ":repo/edit/:branch/:path",
 
         // 文章所在仓库
-        docsRepo: "https://github.com/AruNi-01/docs",
+        docsRepo: "https://github.com/AruNi-01/AruNi-01.github.io",
 
         // 文章所在分支
         docsBranch: "main",
