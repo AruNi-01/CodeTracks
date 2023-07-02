@@ -47,9 +47,3 @@ jobs:
           folder: src/.vuepress/dist
           cname: aruni.me  # 你网站的域名
           
-      # codecov
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
-        with: 
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-          
