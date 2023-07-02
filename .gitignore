@@ -4,6 +4,8 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 
+public
+
 # Editor
 .vscode/
 .idea

@@ -16,6 +16,8 @@ export default defineUserConfig({
     shouldPrefetch: false,
     head: [],
 
+    dest: "public",
+
     // 主题设置
     theme: hopeTheme({
         // 当前网站部署域名
