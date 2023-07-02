@@ -1,0 +1,19 @@
+image: node:latest
+
+pages:
+  cache:
+    paths:
+      - node_modules/
+    key:
+      files:
+        - yarn.lock
+  before_script:
+    - export NODE_OPTIONS=--openssl-legacy-provider
+    - yarn install
+  script:
+    - yarn docs:build
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
