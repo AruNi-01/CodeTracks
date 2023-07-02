@@ -9,6 +9,7 @@ pages:
         - yarn.lock
   before_script:
     - export NODE_OPTIONS=--openssl-legacy-provider
+    - export NODE_OPTIONS=--max-old-space-size=4096
     - yarn install
   script:
     - yarn docs:build
