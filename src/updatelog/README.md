@@ -23,6 +23,9 @@ timeline: false
 - 并发编程：[手撕简易线程池](../studynotes/java/concurrency/手撕简易线程池.md)
 
 
+**《微服务架构》**：
+- 负载均衡：[常见负载均衡算法](../studynotes/microservice/load_balance/常见负载均衡算法.md)
+
 :::
 
 ## 2023 年 6 月

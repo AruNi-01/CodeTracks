@@ -38,4 +38,5 @@ timeline: false
 ## 服务注册与发现
 - [什么是服务注册与发现](register_and_discover/什么是服务注册与发现.md)
 
-
+## 负载均衡
+- [常见负载均衡算法](load_balance/常见负载均衡算法.md)
