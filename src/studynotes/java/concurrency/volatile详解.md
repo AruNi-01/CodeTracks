@@ -84,7 +84,7 @@ Java 内存模型抽象了线程和主存之间的关系，主要由三部分构
 
 现在已经保证了对变量的写操作可以时刻同步进主内存，接下来还需要一个规则，要保证每次读操作都在写操作后面执行，这样能保证 **读操作读取到的是最新值**。这个规则就是 **Happens-Before 规则**。
 
-**Happens-Before 规则** 中要求：**对 volatile 变量的写操作必须在对该变量的读操作之前执行**。
+**Happens-Before 规则** 中规定：**对 volatile 变量的写操作一定会在对该变量的读操作之前执行**。
 
 如下图所示：
 
@@ -97,6 +97,13 @@ Java 内存模型抽象了线程和主存之间的关系，主要由三部分构
 - 蓝色箭头：传递性规则保证；
 
 即 **保证了线程 B 的读操作读取到的是最新值，保证了可见性**。
+
+可以把 volatile 变量的读写操作与 synchronized 类比起来看：
+
+- volatile 变量的写，就相当于 MonitorExit（退出 synchronized 块）；
+- volatile 变量的读，就相当于 MonitorEnter（进入 synchronized 块）。
+
+> 注意：这里是类比，并不是等同于，由于 Happens-Before 规则的存在，相当于一个线程在进入 synchronized 块（读 volatile 变量）之前，要先等其他线程退出该 synchronized 块（写 volatile 变量）所以保证了可见性。
 
 不过还需要 **注意**：在进行读写操作时，**要保证执行顺序**，因为 **读写 volatile 变量的操作并不是原子的**。无论是读还是写，都分为了 **3 个命令**（`read -> load -> use` 或 `assign -> store -> write`），若出现线程 A 的 write 操作发生在线程 B 的 use 操作之后，此时线程 B 在主内存中读取到的数据就是旧数据。
 

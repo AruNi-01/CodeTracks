@@ -29,6 +29,12 @@ timeline: false
 
 :::
 
+::: info 完善文章
+**《Java》**：
+- 并发编程：[volatile 详解](../studynotes/java/concurrency/volatile详解.md)
+
+:::
+
 ## 2023 年 6 月
 ::: tip 新增文章
 **《分布式系统》**：
