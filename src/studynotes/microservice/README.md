@@ -40,3 +40,6 @@ timeline: false
 
 ## 负载均衡
 - [常见负载均衡算法](load_balance/常见负载均衡算法.md)
+
+## 服务熔断限流与降级
+- [熔断 - 如何防止抖动](fuse_limit_downgrade/熔断-如何防止抖动.md)

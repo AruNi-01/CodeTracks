@@ -25,6 +25,7 @@ timeline: false
 
 **《微服务架构》**：
 - 负载均衡：[常见负载均衡算法](../studynotes/microservice/load_balance/常见负载均衡算法.md)
+- 服务熔断限流与降级：[熔断 - 如何防止抖动](../studynotes/microservice/fuse_limit_downgrade/熔断-如何防止抖动.md)
 
 :::
 
