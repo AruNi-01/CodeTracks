@@ -10,7 +10,6 @@
     "docs:dev": "vuepress dev src"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.64",
     "@vuepress/plugin-docsearch": "2.0.0-beta.64",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.64",
     "vue": "3.3.4",
