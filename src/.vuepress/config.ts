@@ -41,7 +41,7 @@ export default defineUserConfig({
         favicon: "/logo.svg",
 
         // 导航栏上的个人仓库地址
-        repo: "https://github.com/AruNi-01/",
+        repo: "https://github.com/AruNi-01/AruNi-01.github.io",
 
         // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
         repoLabel: "GitHub",
@@ -186,14 +186,14 @@ export default defineUserConfig({
             },
 
             // 代码复制功能-vuepress-plugin-copy-code2
-            copyCode: {
-                // 在移动端也可以实现复制代码
-                showInMobile: true,
-                selector: '.theme-default-content div[class*="language-"] pre',
-                duration: 1500,
-                // pure: false,
-                delay: 800,
-            },
+            // copyCode: {
+            //     // 在移动端也可以实现复制代码
+            //     showInMobile: true,
+            //     selector: '.theme-default-content div[class*="language-"] pre',
+            //     duration: 1500,
+            //     fancy: true,
+            //     delay: 800,
+            // },
 
             // MarkDown文件增强
             mdEnhance: {

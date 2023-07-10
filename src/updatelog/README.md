@@ -27,6 +27,10 @@ timeline: false
 - 负载均衡：[常见负载均衡算法](../studynotes/microservice/load_balance/常见负载均衡算法.md)
 - 服务熔断限流与降级：[熔断 - 如何防止抖动](../studynotes/microservice/fuse_limit_downgrade/熔断-如何防止抖动.md)
 
+
+**《设计模式》**：
+- 设计模式与范式：[模板模式（上）：理解模板模式](../studynotes/design_pattern/pattern/behaviour_type/模板模式（上）：理解模板模式.md)
+
 :::
 
 ::: info 完善文章
