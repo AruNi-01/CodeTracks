@@ -132,7 +132,7 @@ Extra 顾名思义，表示一些额外的信息。虽然它叫 Extra，但它�
 
 - **Using temporary**：**使用了临时表保存中间结果**。常见于 distinct 和 order by，如果无法利用索引来去重或者排序，则需要使用临时表；
 
-- **Using index condition**：**索引条件下推**（ICP）。这里就不详细讲解什么是 ICP 了，具体见 [索引覆盖和索引条件下推](https://aruni.me/docs/studynotes/database/mysql/索引覆盖和索引条件下推.html)；
+- **Using index condition**：**索引条件下推**（ICP）。这里就不详细讲解什么是 ICP 了，具体见 [索引覆盖和索引条件下推](https://aruni.me/studynotes/database/mysql/索引覆盖和索引条件下推.html)；
 
 - **Using where**：**某个搜索条件需要到 server 层进行判断**。
 

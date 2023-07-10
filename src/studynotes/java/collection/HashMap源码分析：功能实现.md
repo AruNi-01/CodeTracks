@@ -29,7 +29,7 @@ timeline: true
 
 ## **1. 前言**
 
-> 注：本篇是 HashMap 源码分析的第二篇文章，建议先阅读 [上一篇文章](https://aruni.me/docs/studynotes/java/collection/HashMap%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%EF%BC%9A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html) 后，再阅读本篇会更清晰。
+> 注：本篇是 HashMap 源码分析的第二篇文章，建议先阅读 [上一篇文章](https://aruni.me/studynotes/java/collection/HashMap%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%EF%BC%9A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html) 后，再阅读本篇会更清晰。
 
 通过上一篇文章的学习，我们知道了 HashMap 基本数据结构的设计，现在来看看 HashMap 具体的功能实现又是如何设计的。
 

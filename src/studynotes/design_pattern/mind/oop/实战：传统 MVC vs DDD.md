@@ -28,7 +28,7 @@ timeline: true
 
 ::: info 前言
 
-[上一篇文章](https://aruni.me/docs/studynotes/design_pattern/mind/oop/理论：传统%20MVC%20vs%20DDD.html) 我们从理论的角度讲解了基于贫血模型的传统开发模式和基于充血的 DDD 开发模式。
+[上一篇文章](https://aruni.me/studynotes/design_pattern/mind/oop/理论：传统%20MVC%20vs%20DDD.html) 我们从理论的角度讲解了基于贫血模型的传统开发模式和基于充血的 DDD 开发模式。
 
 下面使用一个简单的虚拟钱包系统，来体会一下这两种开发模式分别是怎样用的，有什么区别。
 

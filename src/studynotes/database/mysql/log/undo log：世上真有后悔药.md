@@ -62,7 +62,7 @@ InnoDB 存储引擎是支持事务的，而事务有一个非常重要的特征�
 
 我们知道，MySQL 的数据页有很多种类型，undo log 也有自己的数据页，叫做 **undo 页**。
 
-在 [了解 Buffer Pool](https://aruni.me/docs/studynotes/database/mysql/buffer_pool/%E4%BA%86%E8%A7%A3BufferPool.html#_3-buffer-pool-%E7%BC%93%E5%AD%98%E4%BB%80%E4%B9%88) 中说过，**undo 页也是存储在 Buffer Pool 中的**，所以在 undo log 写入 undo 页时，其实也是 **在 Buffer Pool 中写**，所以 undo 页和其他数据页一样，**在刷脏页时就会进行持久化**。
+在 [了解 Buffer Pool](https://aruni.me/studynotes/database/mysql/buffer_pool/%E4%BA%86%E8%A7%A3BufferPool.html#_3-buffer-pool-%E7%BC%93%E5%AD%98%E4%BB%80%E4%B9%88) 中说过，**undo 页也是存储在 Buffer Pool 中的**，所以在 undo log 写入 undo 页时，其实也是 **在 Buffer Pool 中写**，所以 undo 页和其他数据页一样，**在刷脏页时就会进行持久化**。
 
 在 Buffer Pool 的文章中也说过，**脏页的持久化是由 redo log 保证的**，所以 **undo 页的修改也会记录到 redo log 中**，我们并不用担心崩溃后还未刷盘的 undo log 会丢失。
 

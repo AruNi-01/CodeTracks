@@ -104,7 +104,7 @@ MQ 主要有下面几个作用，这也是为什么要使用 MQ 的原因：
 
 ## 如何解决幂等问题？
 
-具体看 [如何保证消息幂等](https://aruni.me/docs/studynotes/middleware/mq/common_question/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%B6%88%E6%81%AF%E5%B9%82%E7%AD%89.html)。
+具体看 [如何保证消息幂等](https://aruni.me/studynotes/middleware/mq/common_question/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%B6%88%E6%81%AF%E5%B9%82%E7%AD%89.html)。
 
 
 

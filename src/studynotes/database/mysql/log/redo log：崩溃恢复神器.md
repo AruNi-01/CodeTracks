@@ -27,7 +27,7 @@ timeline: true
 
 ## 1. 前言
 
-在 [了解 Buffer Pool](https://aruni.me/docs/studynotes/database/mysql/buffer_pool/了解BufferPool.html#_4-3-脏页何时被刷回磁盘) 中说过，BP 中的数据是不会立即刷回磁盘的，那么此时如果 MySQL 崩溃了，重启后还未来得及刷盘的脏页会丢失么？
+在 [了解 Buffer Pool](https://aruni.me/studynotes/database/mysql/buffer_pool/了解BufferPool.html#_4-3-脏页何时被刷回磁盘) 中说过，BP 中的数据是不会立即刷回磁盘的，那么此时如果 MySQL 崩溃了，重启后还未来得及刷盘的脏页会丢失么？
 
 答案是不会的，因为 InnoDB 在更新的时候，采用的是 **WAL 技术**（Write-Ahead Logging，写前日志），即更新时 **先写日志，后刷磁盘**。
 
@@ -67,7 +67,7 @@ timeline: true
 
 因为写 redo log 也要刷盘，所以为了减少 I/O 操作，并不会写一条 redo log 就刷一次盘，它有一个自己的缓冲区  **redo log buffer**，每产生一条 redo log 记录只需要先写入 redo log buffer 即可，后续再进行刷盘。
 
-redo log buffer 是不在 Buffer Pool 里的（[了解 Buffer Pool](https://aruni.me/docs/studynotes/database/mysql/buffer_pool/了解BufferPool.html#_3-buffer-pool-缓存什么) 中有提到），它有一块自己的连续地址空间。大小可以通过 `innodb_log_buffer_size` 调整，默认为 16MB。
+redo log buffer 是不在 Buffer Pool 里的（[了解 Buffer Pool](https://aruni.me/studynotes/database/mysql/buffer_pool/了解BufferPool.html#_3-buffer-pool-缓存什么) 中有提到），它有一块自己的连续地址空间。大小可以通过 `innodb_log_buffer_size` 调整，默认为 16MB。
 
 ## 4. redo log 刷盘时机
 

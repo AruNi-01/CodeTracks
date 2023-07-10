@@ -47,7 +47,7 @@ volatile 三大特性：
 
 ## 2. JMM 介绍
 
-> 详细的 JMM 讲解在 [Java 内存模型](https://aruni.me/docs/studynotes/java/concurrency/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html)
+> 详细的 JMM 讲解在 [Java 内存模型](https://aruni.me/studynotes/java/concurrency/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html)
 
 Java 内存模型抽象了线程和主存之间的关系，主要由三部分构成：**1 个主内存、n 个线程、n 个本地（工作）内存**，共享数据就在它们三者之间来回倒腾。
 

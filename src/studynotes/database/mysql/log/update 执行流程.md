@@ -28,9 +28,9 @@ timeline: true
 
 ::: info 前言
 
-在基础篇中知道了 [select 语句执行的那套流程](https://aruni.me/docs/studynotes/database/mysql/basis/select执行流程.html)，一条 update 语句其实也会同样走一遍。
+在基础篇中知道了 [select 语句执行的那套流程](https://aruni.me/studynotes/database/mysql/basis/select执行流程.html)，一条 update 语句其实也会同样走一遍。
 
-不同的是，执行器进行更新操作后，还涉及到两个重要的日志模块，即 [redo log](https://aruni.me/docs/studynotes/database/mysql/log/redo%20log：崩溃恢复神器.html) 和 [binlog](https://aruni.me/docs/studynotes/database/mysql/log/binlog：主从复制和备份.html)。
+不同的是，执行器进行更新操作后，还涉及到两个重要的日志模块，即 [redo log](https://aruni.me/studynotes/database/mysql/log/redo%20log：崩溃恢复神器.html) 和 [binlog](https://aruni.me/studynotes/database/mysql/log/binlog：主从复制和备份.html)。
 
 :::
 

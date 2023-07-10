@@ -49,7 +49,7 @@ HTTP 请求报文由三部分组成，分别是 **请求行、请求头和请求
 - 请求头：包含若干属性，格式为 `属性名：属性值`，常见的属性包括接收的数据格式/编码/语言、目标服务器的域名、缓存控制、Cookie 等。
 - 请求体：请求的内容。
 
-请求报文的示例如下（详细的报文格式可以看 [HTTP 入门](https://aruni.me/docs/studynotes/cs/network/http/HTTP入门.html#_4-http-报文格式)）：
+请求报文的示例如下（详细的报文格式可以看 [HTTP 入门](https://aruni.me/studynotes/cs/network/http/HTTP入门.html#_4-http-报文格式)）：
 
 ![image-20230304141204392](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/202303041412642.png)
 
