@@ -9,7 +9,7 @@
         <a class="card-body" :href="item.link" target="_blank">
           <img
             class="link-picture"
-            :src="`https://s0.wp.com/mshots/v1/${item.link}?w=323px&h=200px`"
+            :src="`https://s0.wp.com/mshots/v1/${item.link}?w=323px&h=225px`"
             alt=""
             rel="noopener noreferrer external"
           />
