@@ -227,9 +227,7 @@ export default defineUserConfig({
                 playground: {
                     presets: ["ts", "vue"],
                 },
-                presentation: {
-                    plugins: ["highlight", "math", "search", "notes", "zoom"],
-                },
+                presentation: ["highlight", "math", "search", "notes", "zoom"],
                 stylize: [
                     {
                         matcher: "Recommanded",
@@ -244,7 +242,7 @@ export default defineUserConfig({
                     },
                 ],
             },
-        }
+        },
     }),
 
     alias: {
