@@ -1,1 +1,63 @@
 // place your custom styles here
+@use "vuepress-shared/styles/shining";
+
+// 图标跳动
+@keyframes bounce {
+    0% {
+      transform: scale(1) translateY(0);
+    }
+  
+    10% {
+      transform: scale(1.1, 0.9) translateY(0);
+    }
+  
+    30% {
+      transform: scale(0.9, 1.1) translateY(-0.3em);
+    }
+  
+    50% {
+      transform: scale(1.05, 0.95) translateY(0);
+    }
+  
+    57% {
+      transform: scale(1) translateY(-0.125em);
+    }
+  
+    64% {
+      transform: scale(1) translateY(0);
+    }
+  
+    100% {
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  .vp-nav-links .nav-link,     // 中上栏
+  // 文章头部栏
+  .page-author-info,    
+  .page-category-info,
+  .page-tag-info,
+  .vp-breadcrumb .vp-link,  // 面包屑
+  .vp-back-to-top-button,
+//   .vp-sidebar-group .vp-sidebar-heading,    // 左侧展开栏
+  .vp-project-home .vp-feature-item     // 主页卡片
+  {
+    &:hover .icon {
+      animation-name: bounce;
+      animation-duration: 1s;
+      animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+      animation-delay: 0s;
+      animation-direction: normal;
+    }
+  }
+
+  // feature-item 擦玻璃
+  .vp-project-home {
+    .vp-feature-item {
+      @include shining.shining;
+      &::before {
+        transition: transform 0.9s;
+      }
+    }
+  }
+

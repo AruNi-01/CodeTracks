@@ -30,8 +30,11 @@ export default defineUserConfig({
         },
 
         // 使用官方提供的图标库-也可以构建自己的图标库
-        iconAssets: "//at.alicdn.com/t/c/font_3869136_oiumskh918.css",
-        iconPrefix: "iconfont icon-",
+        iconAssets: [
+            "//at.alicdn.com/t/c/font_3869136_cy5t5twutat.css",
+            "fontawesome",
+        ],
+        iconPrefix: "fa-",
 
         // 导航栏图标
         logo: "/logo.png",
@@ -122,7 +125,9 @@ export default defineUserConfig({
         print: true,
 
         plugins: {
-            blog: true,
+            blog: {
+                hotReload: true,
+            },
             pwa: true,
             // 开启git实现编辑此页面-最后更新时间-贡献者功能
             git: true,
