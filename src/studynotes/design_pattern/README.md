@@ -78,6 +78,7 @@ timeline: false
 - [观察者模式（上）：理解观察者模式](pattern/behaviour_type/观察者模式（上）：理解观察者模式.md)
 - [观察者模式（下）：实现一个 EventBus 框架](pattern/behaviour_type/观察者模式（下）：实现一个EventBus框架.md)
 - [模板模式（上）：理解模板模式](pattern/behaviour_type/模板模式（上）：理解模板模式.md)
+- [模板模式（下）：模板模式与 Callback](pattern/behaviour_type/模板模版（下）：模板模式与Callback.md)
 
 :::
 

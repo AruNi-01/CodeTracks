@@ -30,6 +30,7 @@ timeline: false
 
 **《设计模式》**：
 - 设计模式与范式：[模板模式（上）：理解模板模式](../studynotes/design_pattern/pattern/behaviour_type/模板模式（上）：理解模板模式.md)
+- 设计模式与范式：[模板模式（下）：模板模式与 Callback](../studynotes/design_pattern/pattern/behaviour_type/模板模版（下）：模板模式与Callback.md)
 
 :::
 
