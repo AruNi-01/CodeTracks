@@ -40,3 +40,5 @@ jobs:
           branch: gh-pages
           folder: public
           cname: aruni.me  # 你网站的域名
+
+          
