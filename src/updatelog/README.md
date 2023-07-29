@@ -22,6 +22,9 @@ timeline: false
 **《Java》**：
 - 并发编程：[手撕简易线程池](../studynotes/java/concurrency/手撕简易线程池.md)
 
+**《数据库》**：
+- MySQL：[行锁的加锁规则](../studynotes/database/mysql/lock/行锁的加锁规则.md)
+
 
 **《微服务架构》**：
 - 负载均衡：[常见负载均衡算法](../studynotes/microservice/load_balance/常见负载均衡算法.md)
@@ -37,6 +40,9 @@ timeline: false
 ::: info 完善文章
 **《Java》**：
 - 并发编程：[volatile 详解](../studynotes/java/concurrency/volatile详解.md)
+
+**《数据库》**：
+- MySQL：[MySQL 中的锁](../studynotes/database/mysql/lock/MySQL中的锁.md)
 
 :::
 

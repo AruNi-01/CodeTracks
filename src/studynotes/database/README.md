@@ -59,6 +59,8 @@ timeline: false
 
 ::: note 锁
 - [MySQL 中的锁](mysql/lock/MySQL中的锁.md)
+- [行锁的加锁规则](mysql/lock/行锁的加锁规则.md)
+
 :::
 
 
