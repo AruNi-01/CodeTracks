@@ -16,6 +16,17 @@ article: false
 timeline: false
 ---
 
+
+
+## 2023 年 8 月
+::: tip 新增文章
+
+**《计算机基础》**：
+- 操作系统：[阻塞非阻塞同步异步 IO](../studynotes/cs/os/net_system/阻塞非阻塞同步异步IO.md)
+
+:::
+
+
 ## 2023 年 7 月
 ::: tip 新增文章
 
