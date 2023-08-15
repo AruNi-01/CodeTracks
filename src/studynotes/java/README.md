@@ -43,3 +43,6 @@ Java 基础、集合、并发编程等！
 - [volatile 详解](concurrency/volatile详解.md)
 - [AQS 入门：简单了解](concurrency/AQS入门：简单了解.md)
 - [手撕简易线程池](concurrency/手撕简易线程池.md)
+
+## JVM
+- [逃逸分析](jvm/compile_and_optimize/逃逸分析.md)

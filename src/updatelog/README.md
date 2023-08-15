@@ -24,6 +24,9 @@ timeline: false
 **《计算机基础》**：
 - 操作系统：[阻塞非阻塞同步异步 IO](../studynotes/cs/os/net_system/阻塞非阻塞同步异步IO.md)
 
+**《Java》**：
+- JVM：[逃逸分析](../studynotes/java/jvm/compile_and_optimize/逃逸分析.md)
+
 :::
 
 
