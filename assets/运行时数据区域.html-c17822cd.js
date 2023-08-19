@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as s,c as _,a as e}from"./app-8a94eb38.js";const o={},a=e("details",{class:"hint-container details"},[e("summary",null,"本文内容"),e("nav",{class:"table-of-contents"},[e("ul")])],-1),c=[a];function n(l,r){return s(),_("div",null,c)}const d=t(o,[["render",n],["__file","运行时数据区域.html.vue"]]);export{d as default};
