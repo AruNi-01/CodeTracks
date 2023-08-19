@@ -3,7 +3,7 @@ home: true
 icon: home2
 title: 个人主页
 heroImage: /favicon.png
-heroText: Domain By AruNi
+heroText: Code Tracks Box
 tagline: 🌱 人生最后悔的事情就是，我本可以
 actions:
   - text: 开始阅读 🎉
@@ -47,13 +47,13 @@ features:
     link: /studynotes/framework/
 
 copyright: false
-footer: Copyright © 2023 AruNi_Lu
+footer: Copyright © 2022-2023 AruNi_Lu
 ---
 
 ## 📣 About
 > 👦🏻 **Me**：一名后端开发，目前就读于武汉工程大学，软件工程专业大三
 
-> 🌀 **Website**：编写此文档以记录一路走来的学习笔记、随感随想
+> 🌀 **Website**：我的代码足迹盒，以此来记录一路走来的学习足迹、随感随想等
 
 ## 👋🏻 Contact
 > 🐧 **QQ**：<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1298911600">Click Me</a>

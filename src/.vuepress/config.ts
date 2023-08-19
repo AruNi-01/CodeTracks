@@ -11,8 +11,8 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
     base: "/",
     lang: "zh-CN",
-    title: "AruNi's domain",
-    description: "学习文档",
+    title: "AruNi",
+    description: "代码足迹盒",
     shouldPrefetch: false,
     head: [],
 
@@ -106,13 +106,13 @@ export default defineUserConfig({
         displayFooter: false,
 
         // 全局设置页脚信息
-        footer: "学习文档",
+        footer: "代码足迹盒",
 
         copyright: false,
         hideSiteNameOnMobile: true,
         navbarIcon: true,
         // 导航栏title，此设置会覆盖站点title，但不会影响标签栏
-        navTitle: "AruNi's domain",
+        navTitle: "AruNi's tracks",
         navbarAutoHide: "mobile",
         sidebarIcon: true,
         sidebarSorter: ["readme", "order", "title", "filename"],
