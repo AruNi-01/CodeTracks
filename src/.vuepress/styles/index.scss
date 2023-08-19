@@ -52,12 +52,12 @@
   }
 
   // feature-item 擦玻璃
-  .vp-project-home {
-    .vp-feature-item {
-      @include shining.shining;
-      &::before {
-        transition: transform 0.9s;
-      }
-    }
-  }
+  // .vp-project-home {
+  //   .vp-feature-item {
+  //     @include shining.shining;
+  //     &::before {
+  //       transition: transform 0.9s;
+  //     }
+  //   }
+  // }
 
