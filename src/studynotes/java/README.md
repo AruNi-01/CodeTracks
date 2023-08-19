@@ -45,4 +45,9 @@ Java 基础、集合、并发编程等！
 - [手撕简易线程池](concurrency/手撕简易线程池.md)
 
 ## JVM
+### 内存管理
+- [运行时数据区域](jvm/memory_manager/运行时数据区域.md)
+
+
+### 程序编译与代码优化
 - [逃逸分析](jvm/compile_and_optimize/逃逸分析.md)
