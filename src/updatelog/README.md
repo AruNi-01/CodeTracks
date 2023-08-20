@@ -27,6 +27,7 @@ timeline: false
 **《Java》**：
 - JVM：[逃逸分析](../studynotes/java/jvm/compile_and_optimize/逃逸分析.md)
 - JVM：[运行时数据区域](../studynotes/java/jvm/memory_manager/运行时数据区域.md)
+- JVM：[对象是如何创建出来的](../studynotes/java/jvm/memory_manager/对象是如何创建出来的.md)
 
 :::
 
