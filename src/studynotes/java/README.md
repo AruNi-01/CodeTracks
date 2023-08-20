@@ -48,6 +48,7 @@ Java 基础、集合、并发编程等！
 ### 内存管理
 - [运行时数据区域](jvm/memory_manager/运行时数据区域.md)
 - [对象是如何创建出来的](jvm/memory_manager/对象是如何创建出来的.md)
+- [GC｜对象存活与否](jvm/memory_manager/GC｜对象存活与否.md)
 
 ### 程序编译与代码优化
 - [逃逸分析](jvm/compile_and_optimize/逃逸分析.md)
