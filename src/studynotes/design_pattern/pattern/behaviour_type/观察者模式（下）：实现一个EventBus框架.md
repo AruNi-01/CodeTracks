@@ -5,7 +5,7 @@ title: 观察者模式（下）：实现一个 EventBus 框架
 shortTitle: 观察者模式（下）
 date: 2023-06-18
 order: 2
-icon: write
+#icon: write
 
 # 分类
 category:

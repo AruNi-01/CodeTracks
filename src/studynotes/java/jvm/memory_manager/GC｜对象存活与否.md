@@ -4,7 +4,7 @@ title: GC｜对象存活与否
 date: 2023-08-20
 order: 3
 # 当前页面图标
-icon: write
+#icon: write
 # 分类
 category:
   - Java

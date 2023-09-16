@@ -62,10 +62,10 @@ export default defineUserConfig({
         hotReload: true,
 
         // 页面显示信息
-        pageInfo: ["Author", "Date", "Word", "ReadingTime", "Category", "Tag"],
+        pageInfo: ["Author", "Category", "Tag", "Word", "ReadingTime", "Date"],
 
         // 路径导航
-        breadcrumb: true,
+        breadcrumb: false,
 
         // 路径导航的图标显示
         breadcrumbIcon: true,
@@ -77,7 +77,7 @@ export default defineUserConfig({
         // 返回顶部按钮-下滑300px后显示
         backToTop: true,
         // 纯净模式
-        pure: false,
+        pure: true,
 
         // 文章的最后更新时间
         lastUpdated: true,
@@ -140,7 +140,7 @@ export default defineUserConfig({
             comment: {
                 // Giscus 评论
                 provider: "Giscus",
-                repo: "AruNi-01/docs",
+                repo: "AruNi-01/AruNi-01.github.io",
                 repoId: "R_kgDOIzaunw",
                 category: "Announcements",
                 categoryId: "DIC_kwDOIzaun84CTx1G",

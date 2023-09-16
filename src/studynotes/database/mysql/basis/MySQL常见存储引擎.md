@@ -3,7 +3,7 @@
 title: MySQL 常见存储引擎
 date: 2023-02-14
 order: 1
-icon: write
+#icon: write
 
 # 分类
 category:

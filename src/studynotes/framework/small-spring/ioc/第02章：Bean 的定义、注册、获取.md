@@ -3,7 +3,7 @@
 title: 第02章：Bean 的定义、注册、获取
 date: 2023-03-09
 order: 2
-icon: write
+#icon: write
 
 # 分类
 category:

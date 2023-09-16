@@ -3,7 +3,7 @@
 title: binlog：主从复制和备份
 date: 2023-03-11
 order: 2
-icon: write
+#icon: write
 
 # 分类
 category:

@@ -3,7 +3,7 @@
 title: 了解 Buffer Pool
 date: 2023-03-05
 order: 1
-icon: write
+#icon: write
 
 # 分类
 category:
