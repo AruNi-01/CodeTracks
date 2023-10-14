@@ -2,7 +2,7 @@
 node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
-public/
+/public/
 
 # Editor
 .vscode/
