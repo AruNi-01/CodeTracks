@@ -9,51 +9,38 @@ actions:
   - text: 开始阅读 🎉
     link: /studynotes/
     type: primary
+  - text: 更新日志 📝
+    link: /updatelog/
   - text: 时间轴 🗓️
     link: /timeline/
 
 features:
-  - title: Java
-    icon: java
-    details: Java 基础、集合、并发编程
-    link: /studynotes/java/
-  - title: 数据库
+  - title: Backend
+    icon: backend
+    details: Backend Code Tracks
+    link: /studynotes/
+  - title: Frontend
     icon: database
-    details: 数据库知识、MySQL、Redis
-    link: /studynotes/database/
-  - title: 计算机基础
-    icon: computer
-    details: 操作系统、网络相关
-    link: /studynotes/cs/
-  - title: 设计模式
-    icon: design-pattern
-    details: 设计模式与范式相关
-    link: /studynotes/design_pattern/
-  - title: 分布式系统
-    icon: fenbushi
-    details: 分布式技术基础及原理
-    link: /studynotes/distributed/
-  - title: 微服务架构
-    icon: microservice
-    details: 微服务体系的基本原理和组成
-    link: /studynotes/microservice/
-  - title: 中间件
-    icon: middleware
-    details: 后端常用中间件
-    link: /studynotes/middleware/
-  - title: 框架
-    icon: framework
-    details: 后端常用框架
-    link: /studynotes/framework/
+    details: Frontend Code Tracks
+    link: /frontend/
+  - title: Project & Works
+    icon: project
+    details: My Some Project & Works
+    link: /project/
+  - title: Links Share
+    icon: link
+    details: Share Some Friend & Software
+    link: /link/
+
 
 copyright: false
 footer: Copyright © 2022-2023 AruNi_Lu
 ---
 
 ## 📣 About
-> 👦🏻 **Me**：一名后端开发，目前就读于武汉工程大学，软件工程专业大三
+> 👦🏻 **Me**：I'm **AruNi_Lu**, a college student & want to be a full-stack web developer.
 
-> 🌀 **Website**：我的代码足迹盒，以此来记录一路走来的学习足迹、随感随想等
+> 🌀 **Website**：This website is code tracks box, which is used to record the my code process.
 
 ## 👋🏻 Contact
 > 🐧 **QQ**：<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1298911600">Click Me</a>

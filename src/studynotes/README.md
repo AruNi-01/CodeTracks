@@ -1,43 +1,42 @@
 ---
-# 当前页面内容标题
-title: 学习笔记
-# 当前页面图标
-icon: Notes
+home: true
+icon: backend
+title: Backend Code Tracks
+heroText: Backend Code Tracks
+tagline: 后端相关 Code Tracks，涵盖 Java、数据库、计算机基础、框架、分布式技术、中间件等
 
-# 是否将该页面生成在侧边栏
-index: false
+features:
+  - title: Java
+    icon: java
+    details: Java 基础、集合、并发编程
+    link: /studynotes/java/
+  - title: 数据库
+    icon: database
+    details: 数据库知识、MySQL、Redis
+    link: /studynotes/database/
+  - title: 计算机基础
+    icon: computer
+    details: 操作系统、网络相关
+    link: /studynotes/cs/
+  - title: 设计模式
+    icon: design-pattern
+    details: 设计模式与范式相关
+    link: /studynotes/design_pattern/
+  - title: 分布式系统
+    icon: fenbushi
+    details: 分布式技术基础及原理
+    link: /studynotes/distributed/
+  - title: 微服务架构
+    icon: microservice
+    details: 微服务体系的基本原理和组成
+    link: /studynotes/microservice/
+  - title: 中间件
+    icon: middleware
+    details: 后端常用中间件
+    link: /studynotes/middleware/
+  - title: 框架
+    icon: framework
+    details: 后端常用框架
+    link: /studynotes/framework/
 
-# 分类
-category:
-  - 导航
-# 标签
-tag:
-  - 导航
-sticky: false
-# 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。
-star: false   
-# 是否将该文章添加至文章列表中
-article: false
-# 是否将该文章添加至时间线中
-timeline: false
 ---
-
-::: tip 相关内容
-这里是我的学习笔记，涵盖 Java、数据库、计算机基础、框架、分布式技术、中间件等！
-:::
-
-## [<FontIcon icon="java"/> Java](java/)
-
-## [<FontIcon icon="database"/> 数据库](database/)
-
-## [<FontIcon icon="computer"/> 计算机基础](cs/)
-
-## [<FontIcon icon="framework"/> 框架](framework/)
-
-## [<FontIcon icon="fenbushi"/> 分布式系统](distributed/)
-
-## [<FontIcon icon="microservice"/> 微服务架构](microservice/)
-
-## [<FontIcon icon="middleware"/> 中间件](middleware/)
-
-## [<FontIcon icon="design-pattern"/> 设计模式](design_pattern/)
