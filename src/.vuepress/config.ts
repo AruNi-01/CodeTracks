@@ -21,7 +21,7 @@ export default defineUserConfig({
     // 主题设置
     theme: hopeTheme({
         // 当前网站部署域名
-        hostname: "https://aruni.me/",
+        hostname: "https://code.0x3f4.run/",
 
         // 文章显示的默认作者
         author: {
@@ -211,8 +211,8 @@ export default defineUserConfig({
                 codetabs: true,
                 attrs: false,
                 figure: false,
-                mermaid: true,
-                katex: true,
+                mermaid: false,
+                katex: false,
                 mathjax: false,
                 chart: false,
                 echarts: false,
