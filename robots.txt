@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://aruni.me/sitemap.xml
+Sitemap: https://code.0x3f4.run/sitemap.xml
