@@ -39,6 +39,6 @@ jobs:
           # This is the branch where the docs are deployed to
           branch: gh-pages
           folder: public
-          cname: aruni.me  # 你网站的域名
+          cname: 0x3f4.run  # 你网站的域名
 
           

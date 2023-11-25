@@ -1,37 +1,35 @@
 import { navbar, sidebar } from "vuepress-theme-hope";
 
 export const Navbar = navbar([
-    { text: "后端足迹", icon: "backend", link: "/studynotes/" },
+    { text: "后端足迹", icon: "backend", link: "/backend/" },
     { text: "前端足迹", icon: "frontend", link: "/frontend/" },
     { text: "项目作品", icon: "project", link: "/project/" },
-    { text: "链接分享", icon: "link", link: "/link/" },
     { text: "人生杂谈", icon: "rensheng", link: "/lifetalk/" },
-    { text: "更新日志", icon: "rizhi", link: "/updatelog/" },
-    // { text: "我的博客", icon: "blog", link: "https://aruni.me" },
+    { text: "链接分享", icon: "link", link: "/link/" },
 ]);
 
 export const Sidebar = sidebar({
 
-    "/studynotes/": "structure",
+    "/backend/": "structure",
     "/frontend/": "structure",
     "/lifetalk/": "structure",
 
     
     // ========================= 学习笔记 =========================
-    // "/studynotes/": [
+    // "/backend/": [
     //   // // ---------------- java ----------------
     //   {
     //     text: "java",
     //     icon: "java",
     //     collapsible: true,
-    //     prefix: "/studynotes/java/",
+    //     prefix: "/backend/java/",
     //     children: [
     //         // java 基础
     //       {
     //         text: "java 基础",
     //         icon: "java",
     //         collapsible: true,
-    //         prefix: "/studynotes/java/javase/",
+    //         prefix: "/backend/java/javase/",
     //         children: [
     //           {
     //             text: "Object 类",
@@ -51,7 +49,7 @@ export const Sidebar = sidebar({
     //         text: "concurrency",
     //         icon: "java",
     //         collapsible: true,
-    //         prefix: "/studynotes/java/concurrency/",
+    //         prefix: "/backend/java/concurrency/",
     //         children: [
     //           {
     //             text: "volatile 详解",
@@ -76,7 +74,7 @@ export const Sidebar = sidebar({
     //         text: "MySQL",
     //         icon: "mysql",
     //         collapsible: true,
-    //         prefix: "/studynotes/database/mysql/",
+    //         prefix: "/backend/database/mysql/",
     //         children: [
     //           {
     //             text: "MySQL 存储",
@@ -91,7 +89,7 @@ export const Sidebar = sidebar({
     //         text: "Redis",
     //         icon: "stack",
     //         collapsible: true,
-    //         prefix: "/studynotes/database/redis/",
+    //         prefix: "/backend/database/redis/",
     //         children: [
     //           {
     //             text: "Redis 持久化",
@@ -116,7 +114,7 @@ export const Sidebar = sidebar({
     //         text: "操作系统",
     //         icon: "OS",
     //         collapsible: true,
-    //         prefix: "/studynotes/cs/os/",
+    //         prefix: "/backend/cs/os/",
     //         children: [
     //           {
     //             text: "虚拟内存",
@@ -131,7 +129,7 @@ export const Sidebar = sidebar({
     //         text: "网络",
     //         icon: "network",
     //         collapsible: true,
-    //         prefix: "/studynotes/cs/network/",
+    //         prefix: "/backend/cs/network/",
     //         children: [
     //           {
     //             text: "认识 HTTP",
@@ -156,7 +154,7 @@ export const Sidebar = sidebar({
     //         text: "sort",
     //         icon: "structure",
     //         collapsible: true,
-    //         prefix: "/studynotes/distributed/sort/",
+    //         prefix: "/backend/distributed/sort/",
     //         children: [
     //           {
     //             text: "介绍",
@@ -171,7 +169,7 @@ export const Sidebar = sidebar({
     //         text: "剑指 Offer",
     //         icon: "structure",
     //         collapsible: true,
-    //         prefix: "/studynotes/distributed/jzoffer/",
+    //         prefix: "/backend/distributed/jzoffer/",
     //         children: [
     //           {
     //             text: "剑指 Offer01. 最长回文子串",
