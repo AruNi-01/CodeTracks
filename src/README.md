@@ -38,7 +38,7 @@ footer: Copyright © 2022-2023 AruNi_Lu
 ---
 
 ## 📣 About
-> 👦🏻 **Me**：I'm **AruNi_Lu**, a college student & want to be a full-stack web developer.
+> 👦🏻 **Me**：I'm <a href="https://0x3f4.run" target="_blank">AruNi_Lu</a>, a college student & want to be a full-stack web developer.
 
 > 🌀 **Website**：This website is code tracks box, which is used to record the my code process.
 
