@@ -31,7 +31,7 @@ export default defineUserConfig({
 
         // 使用官方提供的图标库-也可以构建自己的图标库
         iconAssets: [
-            "//at.alicdn.com/t/c/font_3869136_r3eedegqt2.css",
+            "//at.alicdn.com/t/c/font_3869136_qwa46ywe75k.css",
             "fontawesome",
         ],
         iconPrefix: "fa-",

@@ -23,11 +23,7 @@ timeline: false
 ---
 
 ::: tip 相关内容
-微服务架构，有关服务注册与发现、远程调用、网关、负载均衡、服务熔断、降级等知识！
-
-::: right
-——参考：胡忠想《从 0 开始学微服务》
-
+微服务架构，涉及 SpringCloudAlibaba、服务注册与发现、远程调用、网关、负载均衡、服务熔断、降级等知识！
 :::
 
 ## 基础
@@ -43,3 +39,20 @@ timeline: false
 
 ## 服务熔断限流与降级
 - [熔断 - 如何防止抖动](fuse_limit_downgrade/熔断-如何防止抖动.md)
+
+## Spring Cloud Alibaba
+::: details 概念
+- [SpringCloudAlibaba 概览](sca/conception/sca概览.md)
+:::
+
+::: details Nacos
+- [Nacos 入门](sca/nacos/nacos入门.md)
+:::
+
+::: details Sentinel
+- [Sentinel 入门](sca/sentinel/sentinel入门.md)
+:::
+
+::: details Seata
+- [Seata 入门](sca/seata/seata入门.md)
+:::
