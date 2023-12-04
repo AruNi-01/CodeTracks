@@ -20,6 +20,7 @@ timeline: false
 ::: tip 新增文章
 **《微服务架构》**：
 - SpringCloudAlibaba：[Seata 入门](../backend/microservice/sca/seata/seata入门.md)
+- SpringCloudAlibaba：[Seata AT 模式](../backend/microservice/sca/seata/seata_mode/Seata-AT模式.md)
 
 
 :::
