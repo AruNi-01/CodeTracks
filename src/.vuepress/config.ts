@@ -44,7 +44,7 @@ export default defineUserConfig({
         favicon: "/logo.svg",
 
         // 导航栏上的个人仓库地址
-        repo: "https://github.com/AruNi-01/AruNi-01.github.io",
+        repo: "https://github.com/AruNi-01/CodeTracks",
 
         // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
         repoLabel: "GitHub",
