@@ -1,5 +1,5 @@
 ---
-title: Seata 模式
+title: Seata 事务模式
 icon: ban
 dir:
   order: 2
