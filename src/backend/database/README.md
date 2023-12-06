@@ -49,6 +49,7 @@ timeline: false
 :::
 
 ::: note 事务
+- [初识事务](mysql/transaction/初识事务.md)
 
 :::
 

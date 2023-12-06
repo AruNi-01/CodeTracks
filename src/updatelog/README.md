@@ -22,6 +22,9 @@ timeline: false
 - SpringCloudAlibaba：[Seata 入门](../backend/microservice/sca/seata/seata入门.md)
 - SpringCloudAlibaba：[Seata AT 模式](../backend/microservice/sca/seata/seata_mode/Seata-AT模式.md)
 
+**《数据库》**：
+- MySQL：[初识事务](../backend/database/mysql/transaction/初识事务.md)
+
 
 :::
 
