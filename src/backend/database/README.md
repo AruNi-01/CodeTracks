@@ -51,6 +51,7 @@ timeline: false
 ::: note 事务
 - [初识事务](mysql/transaction/初识事务.md)
 - [事务隔离级别](mysql/transaction/事务隔离级别.md)
+- [隔离级别的实现原理](mysql/transaction/隔离级别的实现原理.md)
 
 :::
 

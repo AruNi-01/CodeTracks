@@ -25,6 +25,7 @@ timeline: false
 **《数据库》**：
 - MySQL：[初识事务](../backend/database/mysql/transaction/初识事务.md)
 - MySQL：[事务隔离级别](../backend/database/mysql/transaction/事务隔离级别.md)
+- MySQL：[隔离级别的实现原理](../backend/database/mysql/transaction/隔离级别的实现原理.md)
 
 
 :::
