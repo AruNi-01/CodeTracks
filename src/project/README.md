@@ -20,6 +20,15 @@ timeline: false
 ## 🐿️ Project
 
 <SiteInfo
+  name="Personal Website"
+  desc="A personal homepage that supports desktop and mobile devices, adapt to dark theme."
+  url="https://0x3f4.run"
+  repo="https://github.com/AruNi-01/0x3f4.run"
+  logo="/img/project/0x3f4-run_logo.png"
+  preview="/img/project/0x3f4-run_preview.png"
+/>
+
+<SiteInfo
   name="Wolai2Notion"
   desc="A Python tool for transferring Wolai to Notion, supporting most types of Block, and conversion of Database and Page."
   url="https://github.com/AruNi-01/wolai2notion"
