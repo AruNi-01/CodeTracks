@@ -30,6 +30,7 @@ timeline: false
 - MySQL：[事务隔离级别](../backend/database/mysql/transaction/事务隔离级别.md)
 - MySQL：[隔离级别的实现原理](../backend/database/mysql/transaction/隔离级别的实现原理.md)
 - Redis: [Redis 底层数据结构](../backend/database/redis/data_structure/redis底层数据结构.md)
+- Redis: [Redis 数据类型](../backend/database/redis/data_structure/redis数据类型.md)
 
 :::
 

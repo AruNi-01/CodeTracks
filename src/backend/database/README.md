@@ -76,6 +76,7 @@ timeline: false
 
 ::: note 数据结构
 - [Redis 底层数据结构](redis/data_structure/redis底层数据结构.md)
+- [Redis 数据类型](redis/data_structure/redis数据类型.md)
 
 :::
 
