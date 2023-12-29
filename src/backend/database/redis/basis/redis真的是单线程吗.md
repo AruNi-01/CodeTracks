@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: Redis真的是单线程吗
+title: Redis 真的是单线程吗
 date: 2023-12-29
 order: 2
 #icon: write
