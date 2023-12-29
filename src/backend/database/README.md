@@ -72,6 +72,7 @@ timeline: false
 
 ::: note 基础
 - [kv 数据库如何实现](redis/basis/kv数据库如何实现.md)
+- [Redis真的是单线程吗](redis/basis/redis真的是单线程吗.md)
 :::
 
 ::: note 数据结构
