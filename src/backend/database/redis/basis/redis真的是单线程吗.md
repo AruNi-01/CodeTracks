@@ -129,6 +129,8 @@ IO 线程解析完请求后，主线程就可以真正执行命令操作了，�
 
 ![img](https://run-notes.oss-cn-beijing.aliyuncs.com/notes/https%2Fstatic001.geekbang.org%2Fresource%2Fimage%2F2e%2F1b-2023_12_29-1703844623.jpeg)
 
+可以发现，**IO 线程主要完成请求的去读和解析**，解析完后主线程操作，接着 **IO 线程将结果写回 Socket，返回给客户端**。
+
 ::: info 如何开启 IO 多线程？
 
 IO 多线程机制 **默认是关闭的**，需要在 redis.conf 中配置：
