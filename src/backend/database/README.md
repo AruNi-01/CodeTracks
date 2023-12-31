@@ -82,6 +82,7 @@ timeline: false
 :::
 
 ::: note 持久化
+- [AOF 日志](redis/durability/aof日志.md)
 
 :::
 
