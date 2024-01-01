@@ -34,7 +34,7 @@ features:
 
 
 copyright: false
-footer: Copyright © 2022-2023 AruNi_Lu
+footer: Copyright © 2022-2024 AruNi_Lu
 ---
 
 ## 📣 About
