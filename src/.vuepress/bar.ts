@@ -6,6 +6,7 @@ export const Navbar = navbar([
     { text: "项目作品", icon: "project", link: "/project/" },
     { text: "人生杂谈", icon: "rensheng", link: "/lifetalk/" },
     { text: "链接分享", icon: "link", link: "/link/" },
+    { text: "个人主页", icon: "personal_website", link: "https://0x3f4.run" },
 ]);
 
 export const Sidebar = sidebar({
