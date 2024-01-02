@@ -83,6 +83,8 @@ timeline: false
 
 ::: note 持久化
 - [AOF 日志](redis/durability/aof日志.md)
+- [RDB 快照](redis/durability/rdb快照.md)
+- [混合持久化](redis/durability/混合持久化.md)
 
 :::
 

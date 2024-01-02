@@ -16,6 +16,18 @@ article: false
 timeline: false
 ---
 
+
+## 2024 年 1 月
+
+::: tip 新增文章
+
+**《数据库》**：
+- Redis: [RDB 快照](../backend/database/redis/durability/rdb快照.md)
+- Redis: [混合持久化](../backend/database/redis/durability/混合持久化.md)
+
+:::
+
+
 ## 2023 年 12 月
 
 ::: tip 新增文章
@@ -31,7 +43,7 @@ timeline: false
 - MySQL：[隔离级别的实现原理](../backend/database/mysql/transaction/隔离级别的实现原理.md)
 - Redis: [Redis 底层数据结构](../backend/database/redis/data_structure/redis底层数据结构.md)
 - Redis: [Redis 数据类型](../backend/database/redis/data_structure/redis数据类型.md)
-- Redis: [Redis真的是单线程吗](../backend/database/redis/basis/redis真的是单线程吗.md)
+- Redis: [Redis 真的是单线程吗](../backend/database/redis/basis/redis真的是单线程吗.md)
 - Redis: [AOF 日志](../backend/database/redis/durability/aof日志.md)
 
 :::
