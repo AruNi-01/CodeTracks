@@ -97,5 +97,6 @@ timeline: false
 :::
 
 ::: note 高可用
+- [主从模式](redis/high_availability/主从模式.md)
 
 :::

@@ -24,6 +24,7 @@ timeline: false
 **《数据库》**：
 - Redis: [RDB 快照](../backend/database/redis/durability/rdb快照.md)
 - Redis: [混合持久化](../backend/database/redis/durability/混合持久化.md)
+- Redis: [主从模式](../backend/database/redis/high_availability/主从模式.md)
 
 :::
 
