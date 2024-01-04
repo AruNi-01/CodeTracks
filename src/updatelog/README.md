@@ -25,6 +25,7 @@ timeline: false
 - Redis: [RDB 快照](../backend/database/redis/durability/rdb快照.md)
 - Redis: [混合持久化](../backend/database/redis/durability/混合持久化.md)
 - Redis: [主从模式](../backend/database/redis/high_availability/主从模式.md)
+- Redis: [哨兵机制：主库挂了怎么办](../backend/database/redis/high_availability/哨兵机制：主库挂了怎么办.md)
 
 :::
 
@@ -52,7 +53,7 @@ timeline: false
 ::: tip 新增项目作品
 
 - [项目](../project/)：[Personal Website](https://github.com/AruNi-01/0x3f4.run)
-  :::
+:::
 
 ## 2023 年 11 月
 
