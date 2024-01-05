@@ -26,6 +26,7 @@ timeline: false
 - Redis: [混合持久化](../backend/database/redis/durability/混合持久化.md)
 - Redis: [主从模式](../backend/database/redis/high_availability/主从模式.md)
 - Redis: [哨兵机制：主库挂了怎么办](../backend/database/redis/high_availability/哨兵机制：主库挂了怎么办.md)
+- Redis: [哨兵集群的组成和运行](../backend/database/redis/high_availability/哨兵集群的组成和运行.md)
 
 :::
 

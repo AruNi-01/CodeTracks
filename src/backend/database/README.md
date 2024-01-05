@@ -99,5 +99,6 @@ timeline: false
 ::: note 高可用
 - [主从模式](redis/high_availability/主从模式.md)
 - [哨兵机制：主库挂了怎么办](redis/high_availability/哨兵机制：主库挂了怎么办.md)
+- [哨兵集群的组成和运行](redis/high_availability/哨兵集群的组成和运行.md)
 
 :::
