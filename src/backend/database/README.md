@@ -100,5 +100,6 @@ timeline: false
 - [主从模式](redis/high_availability/主从模式.md)
 - [哨兵机制：主库挂了怎么办](redis/high_availability/哨兵机制：主库挂了怎么办.md)
 - [哨兵集群的组成和运行](redis/high_availability/哨兵集群的组成和运行.md)
+- [切片集群：数据量大怎么办](redis/high_availability/切片集群：数据量大怎么办.md)
 
 :::
