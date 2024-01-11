@@ -90,6 +90,8 @@ timeline: false
 
 ::: note 功能模块
 
+- [异步机制：避免单线程阻塞](redis/function/异步机制：避免单线程阻塞.md)
+
 :::
 
 ::: note 缓存
