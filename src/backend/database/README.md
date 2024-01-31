@@ -31,6 +31,7 @@ timeline: false
 ::: note 基础
 - [MySQL 常见存储引擎](mysql/basis/MySQL常见存储引擎.md)
 - [select 执行流程](mysql/basis/select执行流程.md)
+- [count() 计数的几种方式](mysql/basis/count()计数的几种方式.md)
 :::
 
 ::: note 索引

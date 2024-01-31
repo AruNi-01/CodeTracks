@@ -29,6 +29,7 @@ timeline: false
 - Redis: [哨兵集群的组成和运行](../backend/database/redis/high_availability/哨兵集群的组成和运行.md)
 - Redis: [切片集群：数据量大怎么办](../backend/database/redis/high_availability/切片集群：数据量大怎么办.md)
 - Redis: [异步机制：避免单线程阻塞](../backend/database/redis/function/异步机制：避免单线程阻塞.md)
+- MySQL: [count() 计数的几种方式](../backend/database/mysql/basis/count()计数的几种方式.md)
 
 :::
 
